@@ -1,0 +1,212 @@
+#styleswitcher {
+	background: #282828;
+	width: 180px;
+	position: fixed;
+	top: 260px;
+	z-index: 3;
+	left: 0px;
+	border-radius: 0 0 3px 0;  
+}
+	
+#styleswitcher h3 {
+	color: #333;
+	font-size: 17px;
+	margin:0;
+	color: #FFF;
+	padding: 2px 0 12px 10px;
+}
+	
+#styleswitcher div {
+	padding: 10px 0 0 0px;
+} 
+
+#styleswitcher h4 {
+	font-size: 14px;
+	margin-bottom: 0px;
+	padding: 10px 10px 5px 10px;
+	display: block;
+	background:  rgba(0, 0, 0, 0.2);
+	color: rgba(255,255,255, 0.8);
+	border-bottom: 1px solid rgba(255,255,255, 0.0);
+}
+
+#styleswitcher h2 a {
+	display: block;
+	position: absolute;
+	right: -43px;
+	color: #FFF;
+	font-size: 16px;
+	top: 0;
+	padding: 13px;
+	background-color: #282828;
+	color: #FFF;
+	border-radius: 0 3px 3px 0;
+}
+
+#styleswitcher .well {
+	margin: 0!important;
+	padding: 15px 15px 15px 12px;
+	border: 0!important;
+	background: rgba(255,255,255, 0.02)!important;
+	border-radius: 0 0 3px 3px;
+	box-shadow: 0 1px 2px 0 rgba(0,0,0, 0.6), inset 0 1px 0 0 rgba(255,255,255, 0.05);
+}
+
+.layouts { 
+	list-style: none;
+	margin: 0px; 
+	overflow: hidden;
+	padding: 0;
+}
+
+.colors { 
+	list-style: none;
+	margin: 0; 
+	padding: 10px;
+	overflow: hidden;
+	background: rgba(0,0,0, 0.2);
+}
+
+.colors li { 
+	float:left; 
+	margin:3px; 
+	border: 2px solid rgba(0,0,0, 0.4);
+}
+
+.colors li a { 
+	display: block; 
+	width:18px; 
+	height:18px; 
+	cursor: pointer;
+	border-radius: 2px;
+}
+	
+.button {
+	display: block;
+	padding: 10px;
+	background: rgba(0, 0, 0, 0.2);
+	color: #FFF;
+	width: 50%;
+}
+
+.button:hover, .button:active,  .button:focus {
+	color: #FFF;
+	background:  rgba(255,255,255, 0.1);
+}
+
+.green { background: #5cb85c; }
+.blue {	background: #5f9ff5; }
+.red { background: #bf1313; }
+.pink { background: #a435aa; }
+
+.furley { background-image: url("../img/bg/furley.jpg"); }
+.agsquare { background-image: url("../img/bg/agsquare.png"); }
+.crossword { background-image: url("../img/bg/crossword.png"); }
+.notebook { background-image: url("../img/bg/notebook.png"); }
+.brickwall { background-image: url("../img/bg/brickwall.png"); }
+.gray_jean { background-image: url("../img/bg/gray_jean.png"); }
+.shattered { background-image: url("../img/bg/shattered.png"); }
+.tiny_grid { background-image: url("../img/bg/tiny_grid.png"); }
+.retina_wood { background-image: url("../img/bg/retina_wood.png"); }
+.tileable_wood_texture { background-image: url("../img/bg/tileable_wood_texture.png"); }
+.dark_geometric { background-image: url("../img/bg/dark_geometric.png"); }
+.dark_circles { background-image: url("../img/bg/dark_circles.png"); }
+.triangles { background-image: url("../img/bg/triangles.png"); }
+.mirrored_squares { background-image: url("../img/bg/mirrored_squares.png"); }
+.padded { background-image: url("../img/bg/padded.png"); }
+
+.bs-glyphicons {
+	margin-left: 0px;
+	list-style: none;
+	overflow: hidden;
+	padding-bottom: 1px;
+	margin-bottom: 20px;
+}
+
+.bs-glyphicons li {
+	width: 25%;
+	float: left;
+	height: 80px;
+	padding: 15px 10px;
+	font-size: 11px;
+	line-height: 1.4;
+	text-align: center;
+	margin: 0 -1px -1px 0;
+	border: 1px solid #ddd;
+}
+
+.bs-glyphicons .glyphicon {
+	display: block;
+	font-size: 18px;
+	margin: 5px auto 10px;
+}
+
+.bs-glyphicons li:hover {
+	background-color: #fafafa;
+}
+
+.fontawesome-icon-list {
+  margin-top: 22px;
+}
+.fontawesome-icon-list .fa-hover a {
+  font-size: 11px;
+  display: block;
+  color: rgba(0,0,0, 0.7);
+  line-height: 32px;
+  height: 32px;
+  padding-left: 0px;
+  border-radius: 4px;
+}
+.fontawesome-icon-list .fa-hover a .fa {
+  width: 32px;
+  font-size: 14px;
+  display: inline-block;
+  text-align: right;
+  margin-right: 10px;
+}
+.fontawesome-icon-list .fa-hover a:hover {
+  background: #3498db;
+  color: #FFF;
+  text-decoration: none;
+}
+.fontawesome-icon-list .fa-hover a:hover .text-muted {
+  color: #bbe2d5;
+}
+
+#icons {
+  margin: 0;
+  padding: 0;
+  max-width: 700px;
+  width: 100%;
+  list-style: none;
+  text-align: left;
+  font-size: 1px;
+}
+#icons li {
+  position: relative;
+  z-index: 0;
+  display: inline-block;
+  padding: 22px 35px;
+  width: 42px;
+  border-radius: 4px;
+  list-style: none;
+  text-align: center;
+  font-weight: normal;
+  font-size: 32px;
+  cursor: pointer;
+}
+#icons li:hover {
+  color: #4F8EF7;
+}
+#icons li.active {
+  color: #4F8EF7;
+}
+
+
+@media only screen and (max-width: 1029px) {
+
+#styleswitcher {
+	display: none;
+}
+
+}

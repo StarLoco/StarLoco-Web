@@ -1,0 +1,26 @@
+  /*==========================================================================
+	GREEN THEME
+  ========================================================================== */
+	a, 
+	a:hover, 
+	a:focus, 
+	.section-title h3, 
+	.bxslider .img .caption h1, 
+	.mega-dropdown-menu .dropdown-sub-header { 
+		color: #107c10;
+	}
+	nav {
+		background: #159615;
+		box-shadow: inset 0 -4px 0 0 #107c10;
+		-webkit-box-shadow: inset 0 -4px 0 0 #107c10;
+		-moz-box-shadow: inset 0 -4px 0 0 #107c10;
+	}
+	nav ul li .dropdown-menu {
+		border: 4px solid #107c10;
+	}
+	.header,
+	#search input[type=text],
+	.mega-dropdown-menu .dropdown-header,
+	#bx-tabs .active .bx-section	{
+		background: #107c10;
+	}
