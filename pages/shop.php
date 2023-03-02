@@ -51,7 +51,7 @@
 				<form class="form-inline" role="form" method="post" style="margin-bottom: 10px;">
 					<select class="form-control" style="width: 90%!important; height: 35px; padding: 6px 12px!important;" name="server">
 						<?php 
-						$query = $login -> prepare("SELECT id, name FROM servers;");			
+						$query = $login -> prepare("SELECT id, name FROM world_servers;");
 						$query -> execute();
 						$query -> setFetchMode(PDO:: FETCH_OBJ);
 
@@ -72,13 +72,13 @@
 					<form class="form-inline" role="form" method="post" action="?page=shop&server=<?php echo $server; ?>" style="margin-bottom: 10px;">
 						<select class="form-control" style="width: 90%!important; height: 35px; padding: 6px 12px!important;" name="category">
 							<?php 
-							$query = $connection -> prepare("SELECT id, name FROM `site.shop.categories` WHERE `active` = 1;");			
+							$query = $connection -> prepare("SELECT id, name FROM `website_shop_categories` WHERE `active` = 1;");
 							$query -> execute();
 							$query -> setFetchMode(PDO:: FETCH_OBJ);
 
 							while($row = $query -> fetch()) {
 								$id = $row -> id;
-								$query1 = $connection -> prepare("SELECT * FROM `site.shop.objects` WHERE `server` = ? AND `category` = ?;");		
+								$query1 = $connection -> prepare("SELECT * FROM `website_shop_objects` WHERE `server` = ? AND `category` = ?;");
 								$query1 -> bindParam(1, $server);
 								$query1 -> bindParam(2, $id);
 								$query1 -> execute();
@@ -97,7 +97,7 @@
 					</div>
 				<?php 
 					if($category != -1) {
-						$query = $connection -> prepare("SELECT * FROM `site.shop.objects` WHERE `category` = " . $category . " AND server LIKE '%" . $server . "%' AND `active` = 1 ORDER BY price DESC;");			
+						$query = $connection -> prepare("SELECT * FROM `website_shop_objects` WHERE `category` = " . $category . " AND server LIKE '%" . $server . "%' AND `active` = 1 ORDER BY price DESC;");
 						$query -> execute();
 						$count = $query -> rowCount();
 						$query -> setFetchMode(PDO:: FETCH_OBJ);
@@ -118,7 +118,7 @@
 								</thead>
 								<tbody><?php
 								while($row = $query -> fetch()) {
-									$query1 = $connection -> prepare("SELECT * FROM `site.shop.objects.templates` WHERE `id` = " . $row -> template . ";");			
+									$query1 = $connection -> prepare("SELECT * FROM `website_shop_objects_templates` WHERE `id` = " . $row -> template . ";");
 									$query1 -> execute();
 									$query1 -> setFetchMode(PDO:: FETCH_OBJ); 
 									$object = $query1 -> fetch();

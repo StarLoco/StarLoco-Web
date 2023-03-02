@@ -85,7 +85,7 @@
 								<?php
 								$i = 0;
 								
-								$query = $connection -> prepare('SELECT COUNT(*) FROM `site.timeline.news`;');
+								$query = $connection -> prepare('SELECT COUNT(*) FROM `website_timeline_news`;');
 								$query -> execute();
 								$row = $query -> fetch();
 								$query -> closeCursor();
@@ -98,7 +98,7 @@
 									$page = 1;
 									
 								$start = ($page - 1) * 10;
-								$query = $connection -> query("SELECT * FROM `site.timeline.news` ORDER BY id DESC LIMIT $start, 10;");
+								$query = $connection -> query("SELECT * FROM `website_timeline_news` ORDER BY id DESC LIMIT $start, 10;");
 								$query -> execute();
 								$query -> setFetchMode(PDO:: FETCH_OBJ);
 								

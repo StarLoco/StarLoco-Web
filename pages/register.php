@@ -56,7 +56,7 @@
 										}
 											
 										if($ok) {
-											$query = $login -> prepare("SELECT COUNT(account) FROM accounts WHERE account = ?;");
+											$query = $login -> prepare("SELECT COUNT(account) FROM world_accounts WHERE account = ?;");
 											$query -> bindParam(1, $username);
 											$query -> execute();
 											$row = $query -> fetch();
@@ -67,7 +67,7 @@
 													<strong>Oh shit!</strong> Le nom de compte existe déjà !
 													</div><br />";
 											} else {
-												$query = $login -> prepare("INSERT INTO accounts(account, pass, email, question, reponse, dateRegister) VALUES (?, ?, ?, ?, ?, ?);");
+												$query = $login -> prepare("INSERT INTO world_accounts(account, pass, email, question, reponse, dateRegister) VALUES (?, ?, ?, ?, ?, ?);");
 											
 												$query -> bindParam(1, $username);
 												$password = hash("SHA512", md5($password));

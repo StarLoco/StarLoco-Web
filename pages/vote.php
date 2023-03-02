@@ -6,7 +6,7 @@
 				<?php 
 				if(isset($_GET['ok'])) {
 					if(isset($_SESSION['id'])) {
-						$query = $login -> prepare('SELECT votes, heurevote, points, totalVotes FROM accounts WHERE guid = ' . $_SESSION['id'] . ';');
+						$query = $login -> prepare('SELECT votes, heurevote, points, totalVotes FROM world_accounts WHERE guid = ' . $_SESSION['id'] . ';');
 						$query -> execute();
 						$row = $query -> fetch();
 						$query -> closeCursor();
@@ -25,7 +25,7 @@
 						if(!CLOUDFLARE_ENABLE) $ip = $_SERVER['REMOTE_ADDR']; // no cloudflare
 						else $ip = $_SERVER["HTTP_CF_CONNECTING_IP"]; // with cloudflare
 
-						$query = $connection -> prepare("SELECT * FROM `site.user.votes` WHERE ip LIKE '" . $ip . "';");
+						$query = $connection -> prepare("SELECT * FROM `website_users_votes` WHERE ip LIKE '" . $ip . "';");
 						$query -> execute();
 						$row = $query -> fetch();
 						$query -> closeCursor();
@@ -39,13 +39,13 @@
 							echo '<div class="alert alert-danger no-border-radius" role="alert">
 							<center>Il te faut attendre encore ' . (int) (60 * 3 - (($curDate - $ipDate) / 60)) . ' minute(s) avant de pouvoir voter !</center></div>';
 						} else {
-							$query = $login -> prepare("UPDATE accounts SET votes = " . ($curVotes + 1) . ", heurevote = '" . $curDate . "', totalVotes = " . $totalVotes . ", points = " . ($curPoints + PTS_PER_VOTE) . " WHERE guid = " . $_SESSION['id'] . ";");
+							$query = $login -> prepare("UPDATE world_accounts SET votes = " . ($curVotes + 1) . ", heurevote = '" . $curDate . "', totalVotes = " . $totalVotes . ", points = " . ($curPoints + PTS_PER_VOTE) . " WHERE guid = " . $_SESSION['id'] . ";");
 							$query -> execute();
 							$query -> closeCursor();
-							$query = $connection -> prepare("DELETE FROM `site.user.votes` WHERE ip = '" . $ip . "';");
+							$query = $connection -> prepare("DELETE FROM `website_users_votes` WHERE ip = '" . $ip . "';");
 							$query -> execute();
 							$query -> closeCursor();
-							$query = $connection -> prepare("INSERT INTO `site.user.votes` (ip, date) VALUES ('" . $ip . "', '" . $curDate . "');");
+							$query = $connection -> prepare("INSERT INTO `website_users_votes` (ip, date) VALUES ('" . $ip . "', '" . $curDate . "');");
 							$query -> execute();
 							$query -> closeCursor();
 

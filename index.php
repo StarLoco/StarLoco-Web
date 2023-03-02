@@ -15,7 +15,7 @@ if(!file_exists("pages/" . $_GET['page'] . ".php")) {
 if(isset($_POST['login'])) {
 	$username = $_POST['username'];
     $password = hash('SHA512', md5($_POST['password']));
-	$query = $login -> prepare("SELECT guid, pass, account FROM accounts WHERE account = ? AND pass = ?;");
+	$query = $login -> prepare("SELECT guid, pass, account FROM world_accounts WHERE account = ? AND pass = ?;");
 	$query -> bindParam(1, $username);
 	$query -> bindParam(2, $password);
 	$query -> execute();
@@ -47,7 +47,7 @@ if(isset($_POST['login'])) {
 	$username = $_COOKIE["user"]; 
 	$hash = $_COOKIE["pass"]; 
 	
-	$query = $login -> prepare("SELECT guid, pass, account FROM accounts WHERE account = ?;");
+	$query = $login -> prepare("SELECT guid, pass, account FROM world_accounts WHERE account = ?;");
 	$query -> bindParam(1, $username);
 	$query -> execute();
 	$ok = $query -> rowCount();

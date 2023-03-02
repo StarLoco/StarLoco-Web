@@ -25,7 +25,7 @@
 									<div class="pull-left">
 										<h5><a href="#">Serveur de connexion</a></h5>
 										Connecté(s) : <?php 
-										$query = $login -> prepare('SELECT COUNT(*) FROM players WHERE logged = 1;');
+										$query = $login -> prepare('SELECT COUNT(*) FROM world_players WHERE logged = 1;');
 										$query -> execute();
 										$row = $query -> fetch();
 										$query -> closeCursor();
@@ -54,7 +54,7 @@
 									<div class="pull-left">
 										<h5><a href="#" style="color: #2a5d9f">Jiva - Ankalike</a></h5>
 										Connecté(s) : <?php 
-										$query = $login -> prepare('SELECT COUNT(*) FROM players WHERE logged = 1 AND server = 1;');
+										$query = $login -> prepare('SELECT COUNT(*) FROM world_players WHERE logged = 1 AND server = 601;');
 										$query -> execute();
 										$row = $query -> fetch();
 										$query -> closeCursor();
@@ -62,7 +62,7 @@
 										?>
 										<div class="info">
 											<?php
-											$query = $login -> prepare('SELECT * FROM `servers` WHERE `id` = 1;');
+											$query = $login -> prepare('SELECT * FROM world_servers WHERE `id` = 601;');
 				                            $query -> execute();
 											$query -> setFetchMode(PDO:: FETCH_OBJ);
 											$server = $query -> fetch();
@@ -99,25 +99,25 @@
 							<li class="no-padding-top no-padding-bottom"><br />
 								<div class="facebook-like-box">
 									<?php
-									$query = $login -> prepare('SELECT COUNT(*) FROM accounts;');
+									$query = $login -> prepare('SELECT COUNT(*) FROM world_accounts;');
 									$query -> execute();
 									$row = $query -> fetch();
 									$query -> closeCursor();
 									$inscris = $row['COUNT(*)'];
 				
-									$query = $login -> prepare('SELECT COUNT(*) FROM `world.entity.guilds`;');
+									$query = $login -> prepare('SELECT COUNT(*) FROM `world_guilds`;');
 									$query -> execute();
 									$row = $query -> fetch();
 									$query -> closeCursor();
 									$guildes = $row['COUNT(*)'];
 									
-									$query = $login -> prepare('SELECT COUNT(*) FROM `world.entity.objects`;');
+									$query = $login -> prepare('SELECT COUNT(*) FROM `world_objects`;');
 									$query -> execute();
 									$row = $query -> fetch();
 									$query -> closeCursor();
 									$objets = $row['COUNT(*)'];
 									
-									$query = $login -> prepare('SELECT COUNT(*) FROM players;');
+									$query = $login -> prepare('SELECT COUNT(*) FROM world_players;');
 									$query -> execute();
 									$row = $query -> fetch();
 									$query -> closeCursor();
@@ -142,7 +142,7 @@
 						<ul class="box" style="left: 0px; top: 0px;">	
 							<?php 
 
-							$query = $login -> prepare('SELECT * FROM players WHERE groupe = -1 ORDER BY xp DESC LIMIT 0, 3;');
+							$query = $login -> prepare('SELECT * FROM world_players WHERE groupe = -1 ORDER BY xp DESC LIMIT 0, 3;');
                   					$query -> execute();
          						$query -> setFetchMode(PDO:: FETCH_OBJ);
 							
@@ -200,7 +200,7 @@
 				</div>
 				
 				<?php 
-				$query = $login -> prepare('SELECT COUNT(*) FROM players WHERE groupe = -1 AND deshonor > 0;');
+				$query = $login -> prepare('SELECT COUNT(*) FROM world_players WHERE groupe = -1 AND deshonor > 0;');
 				$query -> execute();
 				$row = $query -> fetch();
 				$query -> closeCursor();
@@ -214,7 +214,7 @@
 						<div class="jcarousel" data-jcarousel="true" data-jcarouselautoscroll="true">
 							<ul class="box" style="left: 0px; top: 0px;">	
 								<?php
-								$query = $login -> prepare('SELECT * FROM players WHERE groupe = -1 AND deshonor > 0 ORDER BY deshonor DESC LIMIT 0, 5;');
+								$query = $login -> prepare('SELECT * FROM world_players WHERE groupe = -1 AND deshonor > 0 ORDER BY deshonor DESC LIMIT 0, 5;');
 								$query -> execute();
 								$query -> setFetchMode(PDO:: FETCH_OBJ);
 								

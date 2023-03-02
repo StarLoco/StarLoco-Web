@@ -11,7 +11,7 @@
 							<div class="section section-default padding-25">
 								<?php if(isset($_POST["webNews"]) && isset($_POST["title"]) && isset($_POST["content"])) {
 									if(!empty($_POST["title"]) && !empty($_POST["content"])) {
-										$query = $login -> prepare("INSERT INTO `site.timeline.news`(title, content, date) VALUES (?, ?, ?);");	
+										$query = $login -> prepare("INSERT INTO `website_timeline_news`(title, content, date) VALUES (?, ?, ?);");
 										$query -> bindParam(1, $_POST["title"]);
 										$query -> bindParam(2, $_POST["content"]);
 										$date = date('d-m-Y');
@@ -47,7 +47,7 @@
 						<div class="section section-default padding-25">
 							<?php 
 							if(isset($_GET['wNews']) && is_numeric($_GET['wNews']) && isset($_GET['remove'])) {
-								$query = $login -> prepare("DELETE FROM `site.timeline.news` WHERE `id` = ?;");	
+								$query = $login -> prepare("DELETE FROM `website_timeline_news` WHERE `id` = ?;");
 								$query -> bindParam(1, $_GET['wNews']);
 								$query -> execute();
 								$query -> closeCursor();
@@ -64,7 +64,7 @@
 									</thead>
 									<tbody>
 										<?php
-										$query = $login -> prepare("SELECT * FROM `site.timeline.news` ORDER BY `id` DESC;");	
+										$query = $login -> prepare("SELECT * FROM `website_timeline_news` ORDER BY `id` DESC;");
 										$query -> execute();
 										
 										while($row = $query -> fetch()) { ?>

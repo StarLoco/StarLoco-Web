@@ -9,7 +9,7 @@
 					echo "<script>window.location.replace(\"?page=signin\")</script>";
 					return;
 				} else {
-					$query = $login -> prepare("SELECT * FROM accounts WHERE account = '" . $_SESSION['user'] . "';");
+					$query = $login -> prepare("SELECT * FROM world_accounts WHERE account = '" . $_SESSION['user'] . "';");
 					$query -> execute();
 					$query -> setFetchMode(PDO:: FETCH_OBJ);
 					$row = $query -> fetch();	
@@ -37,7 +37,7 @@
 				$option = $row -> showOrHide;				
 				if(isset($_POST['ok1'])) {
 					$option = ($option ? 0 : 1);
-					$query = $login -> prepare("UPDATE accounts SET `showOrHide` = " . $option . " WHERE account = '" . $_SESSION['user'] . "';");
+					$query = $login -> prepare("UPDATE world_accounts SET `showOrHide` = " . $option . " WHERE account = '" . $_SESSION['user'] . "';");
 					$query -> execute();
 					$query -> closeCursor();
 				}
@@ -52,7 +52,7 @@
 				$option = $row -> showOrHidePos;				
 				if(isset($_POST['ok2'])) {
 					$option = ($option ? 0 : 1);
-					$query = $login -> prepare("UPDATE accounts SET `showOrHidePos` = " . $option . " WHERE account = '" . $_SESSION['user'] . "';");
+					$query = $login -> prepare("UPDATE world_accounts SET `showOrHidePos` = " . $option . " WHERE account = '" . $_SESSION['user'] . "';");
 					$query -> execute();
 					$query -> closeCursor();
 				}
@@ -77,7 +77,7 @@
 							<div class="col-md-12">
 								<section class="section margin-top-20 margin-bottom-20 no-border">
 								<?php				
-								$query = $login -> prepare("SELECT name, class, xp, level, sexe, account, alignement FROM players WHERE account = " . $_SESSION['id'] . ";");		
+								$query = $login -> prepare("SELECT name, class, xp, level, sexe, account, alignement FROM world_players WHERE account = " . $_SESSION['id'] . ";");
 								$query -> execute();
 								$count = $query -> rowCount();
 								$query -> setFetchMode(PDO:: FETCH_OBJ);
@@ -174,7 +174,7 @@
 												$error = 1;
 											} else {
 												$count = false;
-												$query = $login -> prepare("SELECT * FROM `accounts` WHERE `reponse` = ?;");
+												$query = $login -> prepare("SELECT * FROM `world_accounts` WHERE `reponse` = ?;");
 												$query -> bindParam(1, $answer);
 												$query -> execute();
 												$count = $query -> rowCount();
@@ -187,7 +187,7 @@
 														$error = 4;
 													} else {
 														$newPass = hash('SHA512', md5($newPass));
-														$query = $login -> prepare("UPDATE `accounts` SET `pass` = ? WHERE `account` = ?;");	
+														$query = $login -> prepare("UPDATE `world_accounts` SET `pass` = ? WHERE `account` = ?;");
 														$query -> bindParam(1, $newPass);	
 														$query -> bindParam(2, $_SESSION['user']);	
 														$query -> execute();
@@ -274,13 +274,13 @@
 														$actualPoints = $row -> points;
 														$newPoints = $actualPoints + $points;
 														
-														$query = $login -> prepare("UPDATE `accounts` SET `points` = ? WHERE `account` = ?;");	
+														$query = $login -> prepare("UPDATE `world_accounts` SET `points` = ? WHERE `account` = ?;");
 														$query -> bindParam(1, $newPoints);	
 														$query -> bindParam(2, $_SESSION['user']);	
 														$query -> execute();
 														$query -> closeCursor();
 														
-														$query = $login -> prepare("INSERT INTO `site.shop.points.purchase` VALUES(?, ?, ?, ?, ?, ?);");	
+														$query = $login -> prepare("INSERT INTO `website_shop_points_purchase` VALUES(?, ?, ?, ?, ?, ?);");
 														$query -> bindParam(1, $row -> account);	
 														$query -> bindParam(2, $points);	
 														$query -> bindParam(3, $code);	

@@ -40,7 +40,7 @@
 									} else if(isset($_POST['next1']) && isset($_POST['account'])) {
 
 										$account = filter_var($_POST['account']);
-										$query = $connection -> prepare("SELECT * FROM accounts WHERE account = ?;");
+										$query = $connection -> prepare("SELECT * FROM world_accounts WHERE account = ?;");
 										$query -> bindParam(1, $account);
 										$query -> execute();
 										$query -> setFetchMode(PDO:: FETCH_OBJ);
@@ -68,7 +68,7 @@
 									} else if(isset($_POST['change']) && isset($_POST['answer']) && isset($_GET['user'])) { 
 										$account = filter_var($_GET['user']);
 										$answer = filter_var($_POST['answer']);
-										$query = $login -> prepare("SELECT * FROM accounts WHERE `account` = ? AND `reponse` = ?;");
+										$query = $login -> prepare("SELECT * FROM world_accounts WHERE `account` = ? AND `reponse` = ?;");
 										$query -> bindParam(1, $account);
 										$query -> bindParam(2, $answer);
 										$query -> execute();
@@ -79,7 +79,7 @@
 										if($ok) {
 											$newPass = generatePassword(10);
 											$password = hash('SHA512', md5($newPass));
-											$query = $login -> prepare("UPDATE accounts SET `pass` = ? WHERE `account` LIKE ?;");
+											$query = $login -> prepare("UPDATE world_accounts SET `pass` = ? WHERE `account` LIKE ?;");
 											$query -> bindParam(1, $password);
 											$query -> bindParam(2, $account);
 											$query -> execute();

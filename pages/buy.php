@@ -15,7 +15,7 @@
 						$template = $_GET['template'];
 						$server = $_GET['server'];
 						
-						$query1 = $connection -> prepare("SELECT * FROM `site.shop.objects` WHERE `template` = " . $template . ";");			
+						$query1 = $connection -> prepare("SELECT * FROM `website_shop_objects` WHERE `template` = " . $template . ";");
 						$query1 -> execute();
 						$count1 = $query1 -> rowCount();
 						$query1 -> setFetchMode(PDO:: FETCH_OBJ);
@@ -28,7 +28,7 @@
 					
 						if($count1 && $pdo != null) {
 						
-							$query2 = $login -> prepare("SELECT guid, points FROM accounts WHERE `guid` = " . $_SESSION['id'] . ";");			
+							$query2 = $login -> prepare("SELECT guid, points FROM world_accounts WHERE `guid` = " . $_SESSION['id'] . ";");
 							$query2 -> execute();
 							$query2 -> setFetchMode(PDO:: FETCH_OBJ);
 							
@@ -86,11 +86,11 @@
 								$query -> execute();
 								$query -> closeCursor();
 								
-								$query = $login -> prepare("UPDATE accounts SET `points` = " . $newPoints . " WHERE `guid` = " . $_SESSION['id'] . ";");			
+								$query = $login -> prepare("UPDATE world_accounts SET `points` = " . $newPoints . " WHERE `guid` = " . $_SESSION['id'] . ";");
 								$query -> execute();
 								$query -> closeCursor();
 								
-								$query = $connection -> prepare("INSERT INTO `site.shop.purchase` (account, template, server, date) VALUES ('".$_SESSION['id']."', '".$template."','".$server."', '" . date('d/m/y H:i') . "~');");
+								$query = $connection -> prepare("INSERT INTO `website_shop_purchase` (account, template, server, date) VALUES ('".$_SESSION['id']."', '".$template."','".$server."', '" . date('d/m/y H:i') . "~');");
 								$query -> execute();
 								$query -> closeCursor();
 								
@@ -108,12 +108,12 @@
 					$template = $_GET['template'];
 					$server = $_GET['server'];
 					if(!empty($template) && is_numeric($template) && !empty($server) && is_numeric($server)) {
-						$query1 = $connection -> prepare("SELECT * FROM `site.shop.objects` WHERE `template` = " . $template . ";");			
+						$query1 = $connection -> prepare("SELECT * FROM `website_shop_objects` WHERE `template` = " . $template . ";");
 						$query1 -> execute();
 						$count1 = $query1 -> rowCount();
 						$query1 -> setFetchMode(PDO:: FETCH_OBJ);
 						
-						$query2 = $login -> prepare('SELECT id, name FROM servers WHERE id = ' . $server . ';');
+						$query2 = $login -> prepare('SELECT id, name FROM world_servers WHERE id = ' . $server . ';');
 						$query2 -> execute();
 						$count2 = $query2 -> rowCount();
 						
@@ -127,13 +127,13 @@
 							
 							$category = $object -> category;
 							
-							$query1 = $connection -> prepare('SELECT id, name FROM `site.shop.categories` WHERE id = ' . $category . ';');
+							$query1 = $connection -> prepare('SELECT id, name FROM `website_shop_categories` WHERE id = ' . $category . ';');
 							$query1 -> execute();
 							$row = $query1 -> fetch();
 							$query1 -> closeCursor();							
 							$category = $row['name'];
 							
-							$query1 = $connection -> prepare('SELECT id, name, skin, level, effects FROM `site.shop.objects.templates` WHERE id = ' . $template . ';');
+							$query1 = $connection -> prepare('SELECT id, name, skin, level, effects FROM `website_shop_objects_templates` WHERE id = ' . $template . ';');
 							$query1 -> execute();
 							$row = $query1 -> fetch();
 							$query1 -> closeCursor();	

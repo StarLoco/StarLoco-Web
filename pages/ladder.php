@@ -20,7 +20,7 @@
 								<div class="row">
 									<div class="col-md-12">
 										<?php				
-										$query = $login -> prepare("SELECT * FROM players WHERE groupe = -1 ORDER BY xp DESC LIMIT 0, 50");
+										$query = $login -> prepare("SELECT * FROM world_players WHERE groupe = -1 ORDER BY xp DESC LIMIT 0, 50");
 										
 										$query -> execute();
 										$count = $query -> rowCount();
@@ -104,7 +104,7 @@
 								<div class="row">
 									<div class="col-md-12">
 										<?php				
-										$query = $login -> prepare("SELECT * FROM players WHERE groupe = -1 ORDER BY honor DESC LIMIT 0, 50");
+										$query = $login -> prepare("SELECT * FROM world_players WHERE groupe = -1 ORDER BY honor DESC LIMIT 0, 50");
 										
 										$query -> execute();
 										$count = $query -> rowCount();
@@ -275,7 +275,7 @@
 										<?php 
 										
 										if(isset($_POST['ok']) && isset($_POST['job'])) {
-											$query = $login -> prepare("SELECT *  FROM players WHERE jobs LIKE '%" . $_POST['job'] . "%' LIMIT 0, 50;");			
+											$query = $login -> prepare("SELECT *  FROM world_players WHERE jobs LIKE '%" . $_POST['job'] . "%' LIMIT 0, 50;");
 											$query -> execute();
 											$count = $query -> rowCount();
 											$query -> setFetchMode(PDO:: FETCH_OBJ);
@@ -408,7 +408,7 @@
 								<div class="row">
 									<div class="col-md-12">
 										<?php				
-										$query = $login -> prepare("SELECT pseudo, votes FROM accounts ORDER BY votes DESC LIMIT 0, 50;");
+										$query = $login -> prepare("SELECT pseudo, votes FROM world_accounts ORDER BY votes DESC LIMIT 0, 50;");
 												
 										$query -> execute();
 										$count = $query -> rowCount();
