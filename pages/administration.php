@@ -1,4 +1,4 @@
- 			<?php if(!isset($_SESSION['user']) || ($_SESSION['data'] -> account != "locos975" && $_SESSION['data'] -> account != "mimikg29pvphl")) exit; ?>
+ 			<?php if(!isset($_SESSION['user']) || ($_SESSION['data'] -> guid != ADMIN_GUID)) exit; ?>
 			<div class="leftside">
 					<ol class="breadcrumb">
 						<li><a href="?page=index">Accueil</a></li>
