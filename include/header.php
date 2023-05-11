@@ -40,7 +40,7 @@
 					<li><a href="<?php echo URL_FORUM; ?>">Forum</a></li>
 					<li><a href="<?php echo URL_BARBOK; ?>">Barbok</a></li>
 					<li><a href="<?php echo URL_TEAMSPEAK; ?>">Teamspeak</a></li>
-					<?php if(isset($_SESSION['user']) && ($_SESSION['data'] -> account == "locos975" || $_SESSION['data'] -> account == "mimikg29pvphl")) echo '<li><a href="?page=administration">Administration' . $_SESSION['data'] -> admin . '</a></li>'; ?>
+					<?php if(isset($_SESSION['user']) && ($_SESSION['data'] -> guid == ADMIN_GUID)) echo '<li><a href="?page=administration">Administration' . $_SESSION['data'] -> admin . '</a></li>'; ?>
 				</ul>
 				
 				<?php
