@@ -20,6 +20,7 @@ date_default_timezone_set('Europe/Paris');
 	define('URL_BARBOK', '');
 	define('URL_TEAMSPEAK', '');
 	define('URL_RSS_NEWS_IPB', '');
+	define('ADMIN_GUID', 1);
 								
 
 	//Http://www.***.**/... neccésaire dans l'URL ( compatibilité Firefox ).
