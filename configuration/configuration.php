@@ -79,7 +79,7 @@ define('PAGE_WITHOUT_RIGHT_MENU', 'signin register password');
 
 function checkState($ip, $port) {
 	$ping = exec("ping -n 1 " . $ip . ":" . $port);
-	if(ereg("perte 100%", $ping)) 
+	if(preg_match("perte 100%", $ping)) 
 		return false;
 	return true;
 }
