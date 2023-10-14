@@ -1,0 +1,44 @@
+<svg width="110" height="97" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <g transform="matrix(1,0,0,1,192.55,294) " id="shape0">
+   <path id="svg_1" stroke-opacity="0" stroke-linejoin="round" stroke-linecap="round" stroke="#ff00ff" fill="none" d="m187.95,-293.5l0,380l-379.95,0l-0.05,0l0,-380l380,0m-95,294.1l-189.95,0"/>
+   <path id="svg_2" stroke-opacity="0" stroke-linejoin="round" stroke-linecap="round" stroke="#ff00ff" fill="none" d="m187.95,-293.5l-190,190l190,190m-380,-380l190,190l-189.95,190"/>
+  </g>
+  <g transform="matrix(1,0,0,1,8.7,14.6) " id="sprite0">
+   <use id="svg_3" xlink:href="#sprite1" width="12.1" transform="matrix(1.4283,0,0,1.4283,-8.7124,-14.576) " height="10.6"/>
+  </g>
+  <g transform="matrix(1,0,0,1,6.45,9.05) " id="sprite1">
+   <use id="svg_4" xlink:href="#shape1" width="12.1" transform="matrix(1,0,0,1,-6.45,-9.05) " height="10.6"/>
+  </g>
+  <g transform="matrix(1,0,0,1,6.45,9.05) " id="shape1">
+   <path id="svg_5" fill-rule="evenodd" fill="#ffffff" d="m4.35,-5.45q-0.65,-0.5 -1.35,-0.6l-0.6,-0.9q-0.95,-1.2 -2.5,-1.2l-0.4,0.05q0.55,-0.8 1.65,-0.95q1.05,-0.15 2,0.6q1.1,0.85 1.25,1.7l-0.05,1.3m-5.05,-2.65q-1.15,0.2 -2.05,1.15l-0.2,0.25l-1.85,0.5q-0.1,-0.75 0.45,-1.5q0.5,-0.85 1.65,-0.95q1.2,-0.1 2,0.55"/>
+   <path id="svg_6" fill-rule="evenodd" fill="#f2e4c1" d="m-0.5,-8.1l0.4,-0.05q1.55,0 2.5,1.2l0.6,0.9q0.7,0.1 1.35,0.6l0.05,0.05q1,0.8 1.2,2.05q0.15,1.05 -0.2,1.95q-2.7,1.2 -4.75,1.05q-0.95,1.25 -2.65,1.7l-0.85,-0.5q-0.95,-0.7 -1.25,-1.8q-0.9,-0.2 -1.55,-0.75q-0.9,-0.85 -0.8,-2.05q0.05,-1.25 1.05,-2.1l0.6,-0.35l1.85,-0.5l0.2,-0.25q0.9,-0.95 2.05,-1.15l0.2,0m0.9,3.8q-1.1,-1.5 -2.1,-1.3q-1.1,0.3 -1.95,1.5l4.05,-0.2"/>
+   <path id="svg_7" fill-rule="evenodd" fill="#e9cf96" d="m-2,1.35q1.7,-0.45 2.65,-1.7q2.05,0.15 4.75,-1.05l-0.3,0.45q-0.75,1.1 -1.95,1.25l-1.6,-0.2l-0.15,0.2q-0.75,1.05 -1.95,1.2l-1.45,-0.15m2.4,-5.65l-4.05,0.2q0.85,-1.2 1.95,-1.5q1,-0.2 2.1,1.3"/>
+   <path id="svg_8" stroke-width="0.05" stroke-linejoin="round" stroke-linecap="round" stroke="#968457" fill="none" d="m4.35,-5.45l0.05,-1.3q-0.15,-0.85 -1.25,-1.7q-0.95,-0.75 -2,-0.6q-1.1,0.15 -1.65,0.95l-0.2,0m-4.1,1.9l-0.6,0.35q-1,0.85 -1.05,2.1q-0.1,1.2 0.8,2.05q0.65,0.55 1.55,0.75q0.3,1.1 1.25,1.8l0.85,0.5m7.4,-2.75q0.35,-0.9 0.2,-1.95q-0.2,-1.25 -1.2,-2.05l-0.05,-0.05m1.05,4.05l-0.3,0.45q-0.75,1.1 -1.95,1.25l-1.6,-0.2l-0.15,0.2q-0.75,1.05 -1.95,1.2l-1.45,-0.15m-2.8,-7.55q-0.1,-0.75 0.45,-1.5q0.5,-0.85 1.65,-0.95q1.2,-0.1 2,0.55"/>
+   <path id="svg_9" fill-rule="evenodd" fill="#d4c8a9" d="m1.2,-1.5l-1.25,0.25q-0.7,-0.05 -1.25,-0.4q-0.2,-0.15 0.15,-1.05q0.35,-0.9 0.85,-1.05q0.9,-0.25 1.4,0.7q0.55,1.05 0.1,1.55"/>
+   <path id="svg_10" stroke-width="0.05" stroke-linejoin="round" stroke-linecap="round" stroke="#917548" fill="none" d="m1.2,-1.5q0.45,-0.5 -0.1,-1.55q-0.5,-0.95 -1.4,-0.7q-0.5,0.15 -0.85,1.05q-0.35,0.9 -0.15,1.05q0.55,0.35 1.25,0.4l1.25,-0.25z"/>
+   <path id="svg_11" fill-rule="evenodd" fill="#ffffff" d="m0.2,-3.2l0.3,0l0.3,0.3l-0.05,0.4l-0.2,0.25l-0.35,-0.05l-0.25,-0.25l0.05,-0.35l0.2,-0.3"/>
+   <path id="svg_12" fill-rule="evenodd" fill="#d4c8a9" d="m3.1,-2.55l1.05,0.05q0.6,-0.2 1.05,-0.65l-0.15,-1.05q-0.3,-0.85 -0.7,-0.8q-0.75,-0.2 -1.2,0.9q-0.5,1.2 -0.05,1.55"/>
+   <path id="svg_13" stroke-width="0.05" stroke-linejoin="round" stroke-linecap="round" stroke="#917548" fill="none" d="m3.1,-2.55q-0.45,-0.35 0.05,-1.55q0.45,-1.1 1.2,-0.9q0.4,-0.05 0.7,0.8l0.15,1.05q-0.45,0.45 -1.05,0.65l-1.05,-0.05z"/>
+   <path id="svg_14" fill-rule="evenodd" fill="#ffffff" d="m3.95,-4.35l-0.3,0.1l-0.25,0.25l0.1,0.35q0,0.2 0.2,0.25l0.25,-0.05l0.2,-0.4l-0.05,-0.3l-0.15,-0.2"/>
+  </g>
+  <g id="sprite2">
+   <use id="svg_15" xlink:href="#shape2" width="102.95" height="45"/>
+  </g>
+  <g id="shape2">
+   <path id="svg_16" fill-rule="evenodd" fill-opacity="0" fill="#ff00ff" d="m0,0l102.95,0l0,45l-102.95,0l0,-45"/>
+  </g>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="99" width="112" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_17">
+   <use x="56.313254" y="160.342188" id="svg_18" xlink:href="#shape0" width="381" transform="matrix(1,0,0,1,-192.55,-294) " height="381"/>
+   <use x="9.046887" y="25.759436" id="svg_19" xlink:href="#sprite0" width="17.25" transform="matrix(6.2246,0,0,6.2246,-54.8544,-158.7297) " height="15.15"/>
+   <use x="27.541084" y="85.694077" xlink:href="#sprite2" width="102.95" transform="matrix(2.0447,0,0,1.8711,-108.95,-152) " id="_mcMask" height="45"/>
+  </g>
+ </g>
+</svg>

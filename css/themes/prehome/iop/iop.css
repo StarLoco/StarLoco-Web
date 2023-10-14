@@ -1,0 +1,52 @@
+
+p {
+    color: #fff;
+    line-height: 1.6;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.prehome-container {
+    background-image: url("css/themes/prehome/iop/bg-text.png");
+    color: #fff !important;
+    padding: 171px;
+    max-width: 807px;
+    margin-right: -1069px;
+    margin-top: 286px;
+}
+
+h1 {
+    color: #E5BF7B;
+}
+
+
+.start-button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: -145px;
+    margin-left: 1074px;
+}

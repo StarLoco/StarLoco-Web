@@ -14,3 +14,4 @@ imagestring($img, 6, strlen($mot) /2 , $milieuHauteur, $mot, $noir);
 imagepng($img);
 imagedestroy($img);
 ?>
+

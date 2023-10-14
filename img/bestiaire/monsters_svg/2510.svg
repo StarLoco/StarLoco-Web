@@ -1,0 +1,282 @@
+<svg width="110" height="138" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <g transform="matrix(1,0,0,1,-80.2,-46.85) " id="sprite0">
+   <use id="svg_1" xlink:href="#sprite1" width="94.25" transform="matrix(2.1111,0,0,1.3188,80.2179,296.4279) " height="21.05"/>
+   <use id="svg_2" xlink:href="#shape1" width="128.5" transform="matrix(1,0,0,1,155.65,61.8) " height="259.75"/>
+   <use id="svg_3" xlink:href="#sprite3" width="12.4" transform="matrix(0.0702,1.0614,1.0614,-0.0702,199.3729,192.5022) " height="21.05"/>
+   <use id="svg_4" xlink:href="#shape3" width="73.3" transform="matrix(1,0,0,1,180.45,164.75) " height="143.95"/>
+   <use id="svg_5" xlink:href="#sprite3" width="12.4" transform="matrix(-0.5135,-2.5237,-1.1841,0.0509,198.057,303.1649) " height="21.05"/>
+   <use id="svg_6" xlink:href="#sprite4" width="13.2" transform="matrix(-5.2141,-0.205,0.0856,-2.1763,236.575,320.258) " height="16.95"/>
+   <use id="svg_7" xlink:href="#sprite3" width="12.4" transform="matrix(1,0,0,1,184.8,209.95) " height="21.05"/>
+   <use id="svg_8" xlink:href="#sprite3" width="12.4" transform="matrix(1,0,0,1,160.9,171.85) " height="21.05"/>
+   <use id="svg_9" xlink:href="#sprite3" width="12.4" transform="matrix(0.1227,-2.8553,-2.4318,-0.1045,212.1511,321.195) " height="21.05"/>
+   <use id="svg_10" xlink:href="#sprite3" width="12.4" transform="matrix(0.4725,-0.9557,-0.9557,-0.4725,201.5073,303.8631) " height="21.05"/>
+   <use id="svg_11" xlink:href="#sprite3" width="12.4" transform="matrix(0.0653,-1.5198,1.5336,0.0659,222.7195,307.7338) " height="21.05"/>
+   <use id="svg_12" xlink:href="#sprite3" width="12.4" transform="matrix(-0.0123,-1.5855,2.3803,0.1541,212.1524,315.9196) " height="21.05"/>
+   <use id="svg_13" xlink:href="#sprite5" width="10.35" transform="matrix(-3.3956,0.4153,-0.473,1.6478,215.5428,171.7121) " height="8.3"/>
+   <use id="svg_14" xlink:href="#shape6" width="12.6" transform="matrix(1,0,0,1,219.95,136.05) " height="12.3"/>
+   <use id="svg_15" xlink:href="#sprite7" width="4.3" transform="matrix(-0.6397,2.6157,2.6157,0.6397,216.0022,137.9494) " height="5.35"/>
+   <use id="svg_16" xlink:href="#shape8" width="14.95" transform="matrix(1,0,0,1,197.1,130.2) " height="12.1"/>
+   <use id="svg_17" xlink:href="#sprite6" width="8.85" transform="matrix(-2.53,0.9498,0.9498,2.53,202.6087,151.0262) " height="10.8"/>
+   <use id="svg_18" xlink:href="#sprite8" width="6.9" transform="matrix(4.8626,0,0,4.8626,171.2241,153.0516) " height="7.25"/>
+   <use id="svg_19" xlink:href="#sprite6" width="8.85" transform="matrix(-2.5377,0.9389,0.9389,2.5377,183.7462,160.5755) " height="10.8"/>
+   <use id="svg_20" xlink:href="#sprite9" width="10.3" transform="matrix(3.2219,-4.6681,4.2274,2.3735,170.3665,155.1811) " height="3.05"/>
+   <use id="svg_21" xlink:href="#sprite10" width="9.2" transform="matrix(2.2203,-0.1526,0.3228,2.0059,181.9521,154.2554) " height="9.4"/>
+   <use id="svg_22" xlink:href="#sprite11" width="19.15" transform="matrix(-2.6297,-0.9338,-0.9338,2.6297,245.1751,82.2869) " height="9.85"/>
+   <use id="svg_23" xlink:href="#sprite12" width="1.55" transform="matrix(3.9759,1.0653,-1.0653,3.9759,285.8327,46.8494) " height="15.75"/>
+   <use id="svg_24" xlink:href="#shape14" width="20.35" transform="matrix(-4.1161,0,0,4.1161,282.6539,81.0374) " height="12"/>
+   <use id="svg_25" xlink:href="#sprite11" width="19.15" transform="matrix(-2.7917,-0.0239,-0.0239,2.7917,222.249,77.2646) " height="9.85"/>
+   <use id="svg_26" xlink:href="#sprite12" width="1.55" transform="matrix(-3.872,1.3929,1.2441,3.4582,249.4504,59.3621) " height="15.75"/>
+   <use id="svg_27" xlink:href="#sprite13" width="27.75" transform="matrix(0.48,-0.1541,0.1541,0.48,194.734,168.9296) " height="59.25"/>
+   <use id="svg_28" xlink:href="#sprite13" width="27.75" transform="matrix(0.4485,0.2313,-0.2313,0.4485,193.6595,166.3621) " height="59.25"/>
+   <use id="svg_29" xlink:href="#shape16" width="21.4" transform="matrix(1,0,0,1,207,139.15) " height="21.4"/>
+   <use id="svg_30" xlink:href="#sprite14" width="9.65" transform="matrix(-0.6397,2.6157,2.6157,0.6397,188.5226,126.8316) " height="13.8"/>
+   <use id="svg_31" xlink:href="#shape18" width="9.5" transform="matrix(1,0,0,1,224.45,144.75) " height="5.3"/>
+   <use id="svg_32" xlink:href="#sprite15" width="15.25" transform="matrix(-0.3154,0.7627,-0.7627,-0.3154,241.5656,151.2878) " height="13.05"/>
+   <use id="svg_33" xlink:href="#sprite3" width="12.4" transform="matrix(-0.079,0.9966,-0.9966,-0.079,209.6544,120.7465) " height="21.05"/>
+   <use id="svg_34" xlink:href="#sprite3" width="12.4" transform="matrix(-0.56,0.8265,-0.8265,-0.56,211.1088,119.4273) " height="21.05"/>
+   <use id="svg_35" xlink:href="#sprite3" width="12.4" transform="matrix(-0.56,0.8265,-0.8265,-0.56,181.0088,83.8273) " height="21.05"/>
+   <use id="svg_36" xlink:href="#sprite3" width="12.4" transform="matrix(-0.513,0.2767,-0.2767,-0.513,199.372,72.1958) " height="21.05"/>
+   <use id="svg_37" xlink:href="#shape20" width="12.85" transform="matrix(1,0,0,1,224.25,151.85) " height="10.6"/>
+   <use id="svg_38" xlink:href="#sprite16" width="97" transform="matrix(-0.3133,0.2243,-0.2086,-0.2913,241.859,152.5988) " height="97"/>
+   <use id="svg_39" xlink:href="#sprite16" width="97" transform="matrix(0.6778,0.2812,-0.1376,0.3318,208.8022,75.8221) " height="97"/>
+   <use id="svg_40" xlink:href="#sprite16" width="97" transform="matrix(-0.3133,0.2243,-0.2086,-0.2913,241.859,152.5988) " height="97"/>
+   <use id="svg_41" xlink:href="#sprite16" width="97" transform="matrix(-0.3302,0.2365,-0.2198,-0.3071,223.6788,187.0742) " height="97"/>
+   <use id="svg_42" xlink:href="#sprite16" width="97" transform="matrix(-0.2294,0.1643,-0.1527,-0.2133,191.2338,175.4293) " height="97"/>
+   <use id="svg_43" xlink:href="#sprite16" width="97" transform="matrix(-0.6834,-0.1931,0.2788,-0.9868,257.5202,324.423) " height="97"/>
+  </g>
+  <g transform="matrix(1,0,0,1,46.65,9.95) " id="sprite1">
+   <use id="svg_44" xlink:href="#sprite2" width="48.3" transform="matrix(1.9322,0,0,0.4121,-46.6635,-9.9517) " height="48.3"/>
+   <use id="svg_45" xlink:href="#sprite2" width="48.3" transform="matrix(0.5766,0,0,0.3444,7.374,-6.5178) " height="48.3"/>
+   <use id="svg_46" xlink:href="#sprite2" width="48.3" transform="matrix(0.5766,0,0,0.3444,3.524,-6.5178) " height="48.3"/>
+   <use id="svg_47" xlink:href="#sprite2" width="48.3" transform="matrix(0.5766,0,0,0.3444,-3.826,-9.9678) " height="48.3"/>
+   <use id="svg_48" xlink:href="#sprite2" width="48.3" transform="matrix(0.5766,0,0,0.3444,19.724,-6.5178) " height="48.3"/>
+   <use id="svg_49" xlink:href="#sprite2" width="48.3" transform="matrix(0.5766,0,0,0.3444,16.524,-5.5178) " height="48.3"/>
+   <use id="svg_50" xlink:href="#sprite2" width="48.3" transform="matrix(0.5766,0,0,0.3444,-16.626,-6.5178) " height="48.3"/>
+  </g>
+  <g transform="matrix(1,0,0,1,24.15,24.15) " id="sprite2">
+   <use id="svg_51" xlink:href="#shape0" width="48.3" transform="matrix(1,0,0,1,-24.15,-24.15) " height="48.3"/>
+  </g>
+  <g transform="matrix(1,0,0,1,24.15,24.15) " id="shape0">
+   <path id="svg_52" fill-rule="evenodd" fill="url(#gradient0)" d="m-17.1,-17.1q7.1,-7.05 17.1,-7.05q10,0 17.05,7.05q7.1,7.1 7.1,17.1q0,10 -7.1,17.05q-7.05,7.1 -17.05,7.1q-10,0 -17.1,-7.1q-7.05,-7.05 -7.05,-17.05q0,-10 7.05,-17.1"/>
+  </g>
+  <g transform="matrix(1,0,0,1,-155.65,-61.8) " id="shape1">
+   <path id="svg_53" stroke-width="3" stroke-opacity="0.541176" stroke-linejoin="round" stroke-linecap="round" stroke="#323d29" fill="none" d="m225.85,140.5l1.8,0.3q1.6,0.65 2,2l-1.5,1.75l0.1,0.55q1.35,-0.15 2.55,0.75l0.45,-0.9l1.85,-0.2l0.85,2.05l-1.45,0.8l-0.1,0.05q2.7,0.55 5.8,3.3l-0.05,0q0.75,5.1 -1.25,11.7l-0.2,0.25q-4.85,-4.25 -7,-8.75q-0.05,-3.2 1.8,-6.2l-0.1,0l-3.05,0.9l0.05,1q0,4.45 -3.15,7.55q-3.1,3.15 -7.55,3.15q-3.8,0 -6.6,-2.25l-2.35,-0.85l-2.05,0.5l-1.45,-4l-0.3,0.05l-1.9,0.25l-0.15,-0.05q-1.7,0 -3.35,-0.75l-2.15,-1.3l-4,-3.2l-0.5,-0.25l4.05,-0.65l-1.6,-1.65q-1.2,-0.95 -2.55,-1.45q-0.9,1.9 -1.65,3.95l-0.8,1.95l-0.65,2.2l1.95,0.75l2.55,1.15q1.7,0.65 3.4,1.75q2.35,1.45 3.95,3.25l3.1,2l6,11.2l-0.1,0.05q1.15,2.6 1.9,5.7q1.05,4.75 0.2,10.65q-0.15,1.25 0.45,2.65l0,0.05l1.2,0.1l7.4,5.1l-5.65,-0.5l6.35,6.05l-0.35,1.15l-5.25,-3.95l-1.8,-0.15l0.25,0.25q7.75,6.75 18,12.6l15.2,21.15l-0.65,2.25q6.4,9.65 5.9,22.45l-11.05,26.05l-11.5,8.65l2.35,5.6l4.6,-1.95l9.5,-0.9l7.4,-5.8l0.6,1.6l-9,8.9l8.15,-0.95l-7.35,5.35l2.45,-0.1l11,-5.6l1.05,1.7l-13.25,8.8l12.55,-0.55l-15.65,7.35l-12.3,0.3l-15.5,-4.1q-2.8,-0.15 -5.9,0l0.7,0.4l-21.9,6.55l-12.5,-2.45l-15.4,-15.75l8.05,1.9l2.8,-1.55l-11,-15.4l1.15,-2.85l10.85,11.9l1.8,0.35l-5.85,-7.2l6.7,1.9l-9.8,-15.1l0,-2.6l7.55,9.85l7.75,1.9l6,4.9l-1.9,-6.65l0.85,-0.8l2.55,6.05l1.85,1.25l1.75,-3.4q-0.15,-3.85 0.15,-8.45q0.75,-10.05 3.3,-23.6l2.45,-5.3q-4.4,-9.35 -7.8,-19l-1.45,-4.15l-0.5,-0.5l0.85,5.3l-5.3,-6.6l-0.65,-5.2l1.75,-6l-0.1,-0.5q-1.45,-5.25 -2.5,-10.55l-1.3,-7.4l-0.7,-3.95l-13.2,-5.4l0.35,2.75l4,4.65l-1,0.4l-6.1,-5.6l0.85,5.3l-5.3,-6.6l-0.65,-5.2l2.6,-8.85l0.35,0.65l-0.1,-0.65l2.95,-2.1l6.95,-4.9l4.5,-10.45q-0.95,1.05 -1.95,4.1q1.15,-8 3.6,-12.85l0.15,-0.25l6.75,-12.9l0.05,-0.1l1.1,-1.9l-0.05,-0.15l0.3,-0.3l3.1,-5.15l-2.65,0.25l4.55,-3.1l2.45,-3.5l-2.3,-1.15l-6.1,0.7l0.25,-1.05l8.05,-1.95l-4.85,-2.25l8.4,-0.65l0.4,0.2l3.2,-7.95l-0.3,0.1l2.75,-6.85l-24.05,-6.7l-4.6,-5.35l-7.65,-1.1l-5.6,-2.75l-6.1,0.7l0.25,-1.05l8.05,-1.95l-4.85,-2.25l8.4,-0.65l0.55,0.3l7.25,0.85l17.05,1.8l7.35,0.85l-3.5,-8.8l0.3,1.35l-5.1,-3.65l-2.15,-2.95l-3.35,-1.25l0.4,-0.5l4.7,1.15l-0.2,-0.2l-1.7,-2.25l4.5,1.9l0.2,0.25l-0.4,-1l7.2,3.45l15.5,7.25l13.85,6.65l6.25,1.5l11.4,6.2q2.4,2.7 11.8,8.45l13.1,7.55l7.45,4.05l1.2,2.15l-0.9,7.2l-5.9,3.5l-3.45,-0.6l-12.35,1.15l-2.4,2.15l-1.95,-1.85l-8.95,0.7l-0.2,1.15l0,0.4l-0.2,1.95l-2.05,3l-2.3,-3l-1.5,-3.2q-0.95,0 -4.85,-2.45q-3.95,-2.5 -10.4,-5.35l-17.1,9.25l-0.25,-0.3l-0.2,0.55q-3.25,2.65 -6,5.65q3.05,4.65 10.35,7.7l-0.1,0.1l1.7,-0.4l0.3,0.8q1.75,-0.65 3.75,-0.65l2.3,0.25q0.25,-1.35 1.6,-2.4l2,-0.95q-1.1,2.1 -1.25,4.1l0.7,0.4l0.1,0l2.05,0.1m-14.6,0.75l-0.65,0.9l-3.1,-1.9l-6.35,-1.15l2.35,-1.35l-4.2,-2.6q-1.2,1.55 -2.25,3.25l-0.75,1.05l-1,1.75l0.4,0.3l9.15,7l0.2,0.1l2.8,-0.9l0,-0.1l0.05,-0.2l-0.65,-2.15l0.75,-2.45l1.3,0.6l0.05,0l-0.45,1.05l0.05,0.05q0.7,-1.3 1.8,-2.4l0.4,-0.35l0.1,-0.5"/>
+  </g>
+  <g transform="matrix(1,0,0,1,6.2,10.45) " id="sprite3">
+   <use id="svg_54" xlink:href="#shape2" width="12.4" transform="matrix(1,0,0,1,-6.2,-10.45) " height="21.05"/>
+  </g>
+  <g transform="matrix(1,0,0,1,6.2,10.45) " id="shape2">
+   <path id="svg_55" fill-rule="evenodd" fill="#87aa77" d="m-0.7,9.55l-4.75,-5.95l-0.65,-5.2l1.25,-4.2l1.35,-4.65l4.75,9.7l0.85,6.2l4,4.65l-1,0.4l-6.1,-5.6l0.05,0.45l0.8,4.85l-0.55,-0.65m-0.25,-4.2l-1.8,-2.55l1.8,2.55"/>
+   <path id="svg_56" stroke-width="0.25" stroke-linejoin="round" stroke-linecap="round" stroke="#87aa77" fill="none" d="m-0.7,9.55l-4.75,-5.95l-0.65,-5.2l1.25,-4.2m6.1,5.05l0.85,6.2l4,4.65l-1,0.4l-6.1,-5.6l0.05,0.45m-1.8,-2.55l1.8,2.55"/>
+  </g>
+  <g transform="matrix(1,0,0,1,-180.45,-164.75) " id="shape3">
+   <path id="svg_57" fill-rule="evenodd" fill="#fe8001" d="m207.4,232.35l-0.05,0.1l0,-0.1l0.05,0"/>
+   <path id="svg_58" fill-rule="evenodd" fill="url(#gradient1)" d="m248.45,234.05l-0.65,2.25l-0.8,-1.15l1.45,-1.1m-3.5,45.45l-0.05,0.05l-2.75,-1.25l2.8,1.2"/>
+   <path id="svg_59" fill-rule="evenodd" fill="#99b88b" d="m184.05,201.75q1.1,-4.2 2.55,-7.25q1.05,-2.25 2.25,-3.9q4.5,-6 11.3,-3.2q1.55,3.9 2.35,11.95q-12.6,6.8 -6.7,19.05l13.15,-1.6q-7.7,9.1 -5.1,15.7l3.5,-0.15l0,0.1q-2.7,6.85 -3,12.95q-0.25,3.9 0.55,7.45l3.3,1.25q3.6,-9.65 15.05,-14.75q-9.45,22.1 -2.75,34.05q1.55,2.8 4.05,5.05q16.5,-5.45 17.65,-18.55q3.4,9.45 -0.05,18.4q-3.55,8.95 -14.05,17.45l-15.35,6.9q11.5,-5.65 13.9,-11.8l-19.9,7q-2.2,-11.1 5,-19.25q-10.75,4.15 -9,15.25q-7.75,-13.65 -1.25,-27.8q-6.1,2.55 -7.5,11.8q0.75,-10.05 3.3,-23.6l2.45,-5.3l2.05,-4.5q-4.85,-2.9 -9.85,-14.5q-3.1,-8.75 -5.4,-17.65q-1.45,-5.25 -2.5,-10.55m17.75,42.7l5.55,-12l-5.55,12m6.4,9.65q-0.85,2.2 -1.25,4.7q-1.4,-2.85 -2.05,-5.95q0.65,3.1 2.05,5.95q0.4,-2.5 1.25,-4.7"/>
+   <path id="svg_60" fill-rule="evenodd" fill="url(#gradient2)" d="m200.15,187.4q2.85,1.15 6.15,3.95l0.55,0.6q3.75,4.3 8.4,8.35q7.75,6.75 18,12.6l15.2,21.15l-1.45,1.1l0.8,1.15q6.4,9.65 5.9,22.45l-8.75,20.75l-2.8,-1.2q3.45,-8.95 0.05,-18.4q-1.15,13.1 -17.65,18.55q-2.5,-2.25 -4.05,-5.05q-6.7,-11.95 2.75,-34.05q-11.45,5.1 -15.05,14.75l-3.3,-1.25q-0.8,-3.55 -0.55,-7.45q0.3,-6.1 3,-12.95l0.05,-0.1l2.4,-5.4l-2.4,5.4l-0.05,0l-3.5,0.15q-2.6,-6.6 5.1,-15.7l-13.15,1.6q-5.9,-12.25 6.7,-19.05q-0.8,-8.05 -2.35,-11.95m40.65,40.95q3.6,3.15 6.2,6.8q-2.6,-3.65 -6.2,-6.8"/>
+   <path id="svg_61" fill-rule="evenodd" fill="#87aa77" d="m184.05,201.75l-1.3,-7.4l-1.45,-9.2l-0.85,-8.45l3.25,-11.95l9.2,2.55q2,6.35 5.2,12.25q3.4,6.15 8.2,11.8q-3.3,-2.8 -6.15,-3.95q-6.8,-2.8 -11.3,3.2q-1.2,1.65 -2.25,3.9q-1.45,3.05 -2.55,7.25m28.7,100.9q-6.6,3 -13.15,6.05l-3.45,-3.95l-1,-7.9q-0.55,-2 -0.85,-4.4q-0.85,-6 -0.3,-14.6q1.4,-9.25 7.5,-11.8q-6.5,14.15 1.25,27.8q-1.75,-11.1 9,-15.25q-7.2,8.15 -5,19.25l19.9,-7q-2.4,6.15 -13.9,11.8m-13,-53.7q-4.4,-9.35 -7.8,-19q5,11.6 9.85,14.5l-2.05,4.5"/>
+   <path id="svg_62" fill-rule="evenodd" fill="#b9d7af" d="m244.9,279.55l-2.25,5.25l-14.55,10.95q10.5,-8.5 14.05,-17.45l2.75,1.25"/>
+   <path id="svg_63" stroke-width="0.5" stroke-opacity="0.101961" stroke-linejoin="round" stroke-linecap="round" stroke="#ffcc00" fill="none" d="m207.35,232.45q-2.7,6.85 -3,12.95q-0.25,3.9 0.55,7.45q0.65,3.1 2.05,5.95q0.4,-2.5 1.25,-4.7q3.6,-9.65 15.05,-14.75q-9.45,22.1 -2.75,34.05q1.55,2.8 4.05,5.05q16.5,-5.45 17.65,-18.55q3.4,9.45 -0.05,18.4m-34.8,-45.95l-3.5,0.15q-2.6,-6.6 5.1,-15.7l-13.15,1.6q-5.9,-12.25 6.7,-19.05q-0.8,-8.05 -2.35,-11.95m7.25,44.95l-0.05,0m20.75,63.4q10.5,-8.5 14.05,-17.45"/>
+   <path id="svg_64" stroke-width="0.05" stroke-opacity="0.541176" stroke-linejoin="round" stroke-linecap="round" stroke="#3e8929" fill="none" d="m206.3,191.35q-4.8,-5.65 -8.2,-11.8q-3.2,-5.9 -5.2,-12.25l-9.2,-2.55l-3.25,11.95l0.85,8.45l1.45,9.2l1.3,7.4m4.8,-11.15q4.5,-6 11.3,-3.2q2.85,1.15 6.15,3.95l0.55,0.6q3.75,4.3 8.4,8.35q7.75,6.75 18,12.6l15.2,21.15l-0.65,2.25q6.4,9.65 5.9,22.45l-8.75,20.75l-0.05,0.05l-2.25,5.25l-14.55,10.95l-15.35,6.9q-6.6,3 -13.15,6.05l-3.45,-3.95l-1,-7.9q-0.55,-2 -0.85,-4.4q-0.85,-6 -0.3,-14.6q0.75,-10.05 3.3,-23.6l2.45,-5.3q-4.4,-9.35 -7.8,-19q-3.1,-8.75 -5.4,-17.65q-1.45,-5.25 -2.5,-10.55m62.95,33.4l0.8,1.15m-38,-9.35l-2.4,5.4l-0.05,0.1l-5.55,12l-2.05,4.5m47.25,-13.8q-2.6,-3.65 -6.2,-6.8"/>
+  </g>
+  <g transform="matrix(1,0,0,1,6.6,5.7) " id="sprite4">
+   <use id="svg_65" xlink:href="#shape4" width="13.2" transform="matrix(1,0,0,1,-6.6,-5.7) " height="16.95"/>
+  </g>
+  <g transform="matrix(1,0,0,1,6.6,5.7) " id="shape4">
+   <path id="svg_66" fill-rule="evenodd" fill="#6d915e" d="m3.3,-5.7l0.65,3.4l2.65,2.35l-4.15,5.9l-0.65,3.4q-2.2,-11.35 -4.65,1.9q0.2,-13 -1.95,-1.9l-1.8,-9.3l1.3,-3.45l0.15,-0.3q2.85,2.6 8.45,-2"/>
+  </g>
+  <g transform="matrix(1,0,0,1,14.7,1.75) " id="sprite5">
+   <use id="svg_67" xlink:href="#sprite6" width="8.85" transform="matrix(0.9176,-0.006,-0.2051,0.7656,-12.4834,-1.7121) " height="10.8"/>
+  </g>
+  <g transform="matrix(1,0,0,1,3.75,5.4) " id="sprite6">
+   <use id="svg_68" xlink:href="#shape5" width="8.85" transform="matrix(1,0,0,1,-3.75,-5.4) " height="10.8"/>
+  </g>
+  <g transform="matrix(1,0,0,1,3.75,5.4) " id="shape5">
+   <path id="svg_69" fill-rule="evenodd" fill="#5d6656" d="m3.3,-4.4q1.15,0.8 0.35,1.85q-0.45,-0.25 -1.55,0q-2.3,1.6 -2.9,4.1l-2.45,-1.2l0.25,-1.7l2.9,-3.95l3.4,0.9"/>
+   <path id="svg_70" fill-rule="evenodd" fill="#5d6656" d="m-3.25,0.35l2.45,1.2q0.6,-2.5 2.9,-4.1q1.1,-0.25 1.55,0q0.8,-1.05 -0.35,-1.85l1.3,0.35l0.4,2.05l0,2.75l-4.95,4.55l-3.7,-2l0.4,-2.95"/>
+   <path id="svg_71" stroke-width="0.25" stroke-opacity="0.541176" stroke-linejoin="round" stroke-linecap="round" stroke="#5d6656" fill="none" d="m5,-2l-0.4,-2.05l-1.3,-0.35l-3.4,-0.9l-2.9,3.95l-0.25,1.7"/>
+   <path id="svg_72" stroke-width="0.25" stroke-opacity="0.541176" stroke-linejoin="round" stroke-linecap="round" stroke="#5d6656" fill="none" d="m-3.25,0.35l-0.4,2.95l3.7,2l4.95,-4.55l0,-2.75l-8.25,2.35z"/>
+  </g>
+  <g transform="matrix(1,0,0,1,-219.95,-136.05) " id="shape6">
+   <path id="svg_73" fill-rule="evenodd" fill="#874301" d="m227.35,147.55l-0.35,0.05l1.2,-2.5q1.75,-0.2 3.2,1.35l1.15,1.9q-2.8,-1.1 -5.2,-0.8"/>
+   <path id="svg_74" fill-rule="evenodd" fill="#c2e9b8" d="m222.3,141.15l0,0.35l-2.35,-1.45q0,-1.75 1.65,-3.05l2,-0.95q-1.35,2.65 -1.3,5.1"/>
+  </g>
+  <g transform="matrix(1,0,0,1,2.45,-0.95) " id="sprite7">
+   <use id="svg_75" xlink:href="#shape7" width="4.3" transform="matrix(1,0,0,1,-2.45,0.95) " height="5.35"/>
+  </g>
+  <g transform="matrix(1,0,0,1,2.45,-0.95) " id="shape7">
+   <path id="svg_76" fill-rule="evenodd" fill="#c2e9b8" d="m1.45,3.8l-1.9,0.05l0.1,2.3l-0.8,-0.25l-0.75,0.4q-0.45,-0.25 -0.55,-0.9l0.05,-0.65l0.1,-0.2l0,-0.05l0.15,-0.75l0.35,-1.4l0.1,-0.2l0.65,0.15l0.35,-1.35l0.95,0.25l0.25,1.05l1.35,0.85l-0.4,0.7"/>
+  </g>
+  <g transform="matrix(1,0,0,1,-197.1,-130.2) " id="shape8">
+   <path id="svg_77" fill-rule="evenodd" fill="#c2e9b8" d="m209.95,142.3l-3.1,-1.9l-6.35,-1.15l2.35,-1.35l-5.75,-3.55l3.8,-4.15q2.8,5.6 11.15,9.1l-2.1,3"/>
+  </g>
+  <g transform="matrix(1,0,0,1,3.45,3.65) " id="sprite8">
+   <use id="svg_78" xlink:href="#shape9" width="6.9" transform="matrix(1,0,0,1,-3.45,-3.65) " height="7.25"/>
+  </g>
+  <g transform="matrix(1,0,0,1,3.45,3.65) " id="shape9">
+   <path id="svg_79" fill-rule="evenodd" fill="#d2efcb" d="m0.75,-3.5q-1.1,0.25 -1.6,1.05l-0.05,0.05l-0.05,0.8l0,0.2l0.85,0.95l0.25,0.35q-1.15,1.2 -0.1,2.5l1.5,0.5l-1.3,0.7l-3.25,-1.15q-0.8,-1.65 -0.2,-3l1.35,-3.1l2.1,0l0.5,0.15"/>
+   <path id="svg_80" fill-rule="evenodd" fill="#f6fef7" d="m0.15,-0.1l-0.25,-0.35l-0.85,-0.95l0,-0.2l0.05,-0.8l0.05,-0.05q0.5,-0.8 1.6,-1.05q1.45,0.55 2.5,2.2q-0.25,0.8 -1.3,1.6l-1.8,-0.4"/>
+   <path id="svg_81" fill-rule="evenodd" fill="#c8ebbe" d="m1.55,2.9l-1.5,-0.5q-1.05,-1.3 0.1,-2.5l1.8,0.4q1.05,-0.8 1.3,-1.6l0.2,0.3l-0.75,3.3l-1.15,0.6m-0.15,-0.8l0.5,-0.6l-0.5,0.6"/>
+   <path id="svg_82" stroke-width="0.25" stroke-opacity="0.541176" stroke-linejoin="round" stroke-linecap="round" stroke="#323d29" fill="none" d="m1.9,1.5l-0.5,0.6"/>
+  </g>
+  <g transform="matrix(1,0,0,1,5.6,1.5) " id="sprite9">
+   <use id="svg_83" xlink:href="#shape10" width="10.3" transform="matrix(1,0,0,1,-5.6,-1.5) " height="3.05"/>
+  </g>
+  <g transform="matrix(1,0,0,1,5.6,1.5) " id="shape10">
+   <path id="svg_84" fill-rule="evenodd" fill="#d2efcb" d="m-4.4,0.3l-0.2,-0.25q0.15,-0.5 -1,-0.15q1.35,-0.75 2.3,-0.9l0.05,0l2.6,-0.35q2.45,-0.3 4.8,0l0.1,0l0.45,2.05l-2.55,0.75q-1.45,-0.55 -2.9,-0.45l-0.25,0q-0.2,-0.15 1.2,-1.4l-1.7,-0.1l-0.15,0.05l-1,0.25l0,-0.05l-0.5,0.15l-1.25,0.4"/>
+   <path id="svg_85" fill-rule="evenodd" fill="#eefff1" d="m-4.4,0.3l1.25,-0.4l0.5,-0.15l0,0.05q-0.65,0.6 -0.55,1.6l-0.4,0.15l-0.8,-1.25m2.75,-0.75l0.15,-0.05l1.7,0.1q-1.4,1.25 -1.2,1.4l-1.8,0.3q0.5,-1.45 1.15,-1.75"/>
+   <path id="svg_86" fill-rule="evenodd" fill="url(#gradient3)" d="m-2.65,-0.2l1,-0.25q-0.65,0.3 -1.15,1.75l-0.4,0.1q-0.1,-1 0.55,-1.6"/>
+  </g>
+  <g transform="matrix(1,0,0,1,4.15,4.75) " id="sprite10">
+   <use id="svg_87" xlink:href="#shape11" width="9.2" transform="matrix(1,0,0,1,-4.15,-4.75) " height="9.4"/>
+  </g>
+  <g transform="matrix(1,0,0,1,4.15,4.75) " id="shape11">
+   <path id="svg_88" fill-rule="evenodd" fill-opacity="0.498039" fill="#ffffff" d="m-2.7,-3.75l-1.45,0.05q1.1,-1.2 3.05,-1q2,0.15 3.75,1.7q1.75,1.5 2.25,3.45q0.45,1.95 -0.65,3.2l-1.65,1l0.05,-0.05q1.1,-1.25 0.65,-3.2q-0.5,-1.95 -2.25,-3.45q-1.75,-1.55 -3.75,-1.7"/>
+  </g>
+  <g transform="matrix(1,0,0,1,0,4.15) " id="sprite11">
+   <use id="svg_89" xlink:href="#shape12" width="19.15" transform="matrix(1,0,0,1,0,-4.15) " height="9.85"/>
+  </g>
+  <g transform="matrix(1,0,0,1,0,4.15) " id="shape12">
+   <path id="svg_90" fill-rule="evenodd" fill="#f6fef7" d="m0.55,1.55l2.55,-0.35l-0.4,-0.8l3.2,-0.35l-0.9,-0.4l5.9,-0.55l-2.25,-0.2l5,-0.2l1.6,-0.7q4.15,-1.9 1.05,-1.85l2.85,-0.3l-4.45,5.05l-8.6,2.35l-3.25,0.85l-0.05,0l-2.25,-2.55"/>
+   <path id="svg_91" fill-rule="evenodd" fill="#ffffff" d="m16.3,-3.85q3.1,-0.05 -1.05,1.85l-1.6,0.7l-5,0.2l2.25,0.2l-5.9,0.55l0.9,0.4l-3.2,0.35l0.4,0.8l-2.55,0.35l-0.55,-0.6l1.85,-3.3l8.35,-0.9l6.1,-0.6"/>
+   <path id="svg_92" fill-rule="evenodd" fill="#d2efcb" d="m2.85,4.1l3.25,-0.85l0.95,2.45l-4.2,-1.6"/>
+  </g>
+  <g transform="matrix(1,0,0,1,1.1,15.4) " id="sprite12">
+   <use id="svg_93" xlink:href="#shape13" width="1.55" transform="matrix(1,0,0,1,-1.1,-15.4) " height="15.75"/>
+  </g>
+  <g transform="matrix(1,0,0,1,1.1,15.4) " id="shape13">
+   <path id="svg_94" stroke-width="0.75" stroke-opacity="0.2" stroke-linejoin="round" stroke-linecap="round" stroke="#21320f" fill="none" d="m-0.05,0l-0.35,-2.75l-0.1,-1.25l-0.05,-0.5"/>
+   <path id="svg_95" stroke-width="0.75" stroke-opacity="0.2" stroke-linejoin="round" stroke-linecap="round" stroke="#476c21" fill="none" d="m-0.6,-5.15l0,-0.3l-0.1,-1.55l0,-1.25l0,-0.25l0,-0.1"/>
+   <path id="svg_96" stroke-width="0.75" stroke-opacity="0.2" stroke-linejoin="round" stroke-linecap="round" stroke="#476c21" fill="none" d="m-0.55,-4.5l0,-0.35l-0.05,-0.15l0,-0.15"/>
+   <path id="svg_97" stroke-width="0.75" stroke-opacity="0.2" stroke-linejoin="round" stroke-linecap="round" stroke="#6da433" fill="none" d="m-0.7,-8.6l0.05,-1.6l0,-0.05l0.25,-1.95"/>
+   <path id="svg_98" stroke-width="0.75" stroke-opacity="0.2" stroke-linejoin="round" stroke-linecap="round" stroke="#92c85c" fill="none" d="m-0.4,-12.2l0.05,-0.45l0.45,-2.4"/>
+  </g>
+  <g transform="matrix(1,0,0,1,12.95,1.4) " id="shape14">
+   <path id="svg_99" fill-rule="evenodd" fill="#ffffff" d="m2.7,5.75q-3.7,1.1 -5.05,1.9q1.5,-1.95 2.4,-2.25q1.2,-0.2 2.65,0.35m-6.85,3.65l1.2,0.25l-0.1,0.25l-0.55,0.7l-0.5,-0.7l-0.05,-0.5"/>
+   <path id="svg_100" fill-rule="evenodd" fill="#fff4dd" d="m-12.65,5.55q1.35,-0.5 2,0.75l0.2,2.2l-0.85,0.15l-1.4,-0.85l-0.25,-1.75l0.3,-0.5"/>
+   <path id="svg_101" fill-rule="evenodd" fill="#eefff1" d="m-10.65,6.3l0.25,-0.35l3.6,-0.9l-0.15,-0.25q0.3,-0.4 1.55,-0.55l-0.3,-0.15l-0.05,0l0.25,-0.15l3.4,-0.8q0.1,-0.2 -0.2,-0.2l-0.15,-0.1l0.6,-0.2l3.05,-1.05l-0.7,-0.3l1.4,-0.7l-1.5,-0.5l0.85,-0.3l0.1,-0.1q-0.75,0.15 -1.7,0l-0.05,0.05l-0.1,-0.2l-1.15,0.2q-1.3,0.2 -0.55,-0.1q0.75,-0.3 0.65,-0.35l-0.45,-0.15l4.9,-0.5q1.2,0.25 1.8,1.15l1.85,4.6l-1.05,1l0.65,-0.1l0,0.05q-0.7,1.05 -0.75,1.45l-0.25,0.4l-2.2,-0.3l-0.15,-0.15l-0.2,-0.65l-0.4,0.6l-0.05,0.1l-1.15,0.4q-1.6,0.7 -2.5,1.3l-1.2,0.6l-1.5,-0.05l-2.2,-0.2l-1.05,-0.05l-3,-0.3l-0.2,-2.2m13.35,-0.55q-1.45,-0.55 -2.65,-0.35q-0.9,0.3 -2.4,2.25q1.35,-0.8 5.05,-1.9"/>
+   <path id="svg_102" fill-rule="evenodd" fill="#d2efcb" d="m1,7.2l1.15,-0.4l0.05,-0.1l0.4,-0.6l0.2,0.65l0.15,0.15l2.2,0.3l0.25,-0.4q0.05,-0.4 0.75,-1.45l0,-0.05l-0.65,0.1l1.05,-1l0.85,2.15l-2.25,2.9l-4.15,-2.25"/>
+   <path id="svg_103" fill-rule="evenodd" fill="url(#gradient4)" d="m-2,-0.85l0.45,0.15q0.1,0.05 -0.65,0.35q-0.75,0.3 0.55,0.1l1.15,-0.2l0.1,0.2l0.05,-0.05q0.95,0.15 1.7,0l-0.1,0.1l-0.85,0.3l1.5,0.5l-1.4,0.7l0.7,0.3l-3.05,1.05l-0.6,0.2l0.15,0.1q0.3,0 0.2,0.2l-3.4,0.8l-0.25,0.15l0.05,0l0.3,0.15q-1.25,0.15 -1.55,0.55l0.15,0.25l-3.6,0.9l-0.25,0.35q-0.65,-1.25 -2,-0.75q6.75,-3.7 7.85,-4.9l2.8,-1.5"/>
+   <path id="svg_104" fill-rule="evenodd" fill="#b1b101" d="m-7.45,8.8l1.05,0.05l-0.45,0.45l-0.6,-0.5m3.25,0.25l1.5,0.05l-0.25,0.55l-1.2,-0.25l0,-0.1l-0.05,-0.25"/>
+   <path id="svg_105" stroke-width="0.05" stroke-opacity="0.372549" stroke-linejoin="round" stroke-linecap="round" stroke="#582c01" fill="none" d="m-6.4,8.85l-0.45,0.45l-0.6,-0.5m4.5,0.85l0.25,-0.55m-0.25,0.55l-0.1,0.25l-0.55,0.7l-0.5,-0.7l-0.05,-0.5m0,-0.1l-0.05,-0.25"/>
+   <path id="svg_106" stroke-width="0.25" stroke-opacity="0.631373" stroke-linejoin="round" stroke-linecap="round" stroke="#a35332" fill="none" d="m-12.7,7.1q0.3,-0.05 0.45,0.95m1.45,-0.4q-0.5,-0.35 -0.95,0.65"/>
+   <path id="svg_107" fill-rule="evenodd" fill="#000000" d="m0.9,5.05l-0.25,-0.05q-0.75,-0.5 -1.35,-0.25q-0.55,0.25 -0.95,1.25l-0.8,0l-0.95,0.2q2.35,-2 3.2,-2.1l1.95,-0.3l-0.85,1.25"/>
+   <path id="svg_108" stroke-width="0.5" stroke-opacity="0.2" stroke-linejoin="round" stroke-linecap="round" stroke="#716228" fill="none" d="m0.9,5.05l0.85,-1.25l-1.95,0.3q-0.85,0.1 -3.2,2.1l0.95,-0.2l0.8,0q0.4,-1 0.95,-1.25q0.6,-0.25 1.35,0.25l0.25,0.05z"/>
+  </g>
+  <g transform="matrix(1,0,0,1,13.75,28) " id="sprite13">
+   <use id="svg_109" xlink:href="#shape15" width="27.75" transform="matrix(1,0,0,1,-13.75,-28) " height="59.25"/>
+  </g>
+  <g transform="matrix(1,0,0,1,13.75,28) " id="shape15">
+   <path id="svg_110" fill-rule="evenodd" fill="#99b88b" d="m-1.4,31.15l-1.8,-0.5l-2.6,-5.4q-6.25,-7.65 -7.8,-17.7q-0.5,-9.05 2.75,-18.85q5.1,-9.5 12.75,-15.6l-0.1,0.15q-6.15,11.35 -8.45,25.25q-2,10 2.45,20.7l2.8,11.95"/>
+   <path id="svg_111" fill-rule="evenodd" fill="#b3d1a8" d="m1.8,-26.75q4.95,-3.15 8,2.3q5.1,11.25 3.85,25.95q-0.85,9.7 -6.05,20.3q-1,2.25 -0.75,5.25q-3.45,4.25 -8.25,4.1l-2.8,-11.95q-4.45,-10.7 -2.45,-20.7q2.3,-13.9 8.45,-25.25"/>
+   <path id="svg_112" stroke-width="0.25" stroke-opacity="0.541176" stroke-linejoin="round" stroke-linecap="round" stroke="#3e8929" fill="none" d="m1.8,-26.75q4.95,-3.15 8,2.3q5.1,11.25 3.85,25.95q-0.85,9.7 -6.05,20.3q-1,2.25 -0.75,5.25q-3.45,4.25 -8.25,4.1m-1.8,-0.5l-2.6,-5.4q-6.25,-7.65 -7.8,-17.7q-0.5,-9.05 2.75,-18.85q5.1,-9.5 12.75,-15.6"/>
+   <path id="svg_113" fill-rule="evenodd" fill-opacity="0.490196" fill="#feabab" d="m5.45,-13.75q-0.9,1.6 -2.35,2.25l-2.4,-0.15q-0.95,-0.8 -0.95,-2.55q0,-1.65 0.95,-3.3q0.95,-1.7 2.4,-2.3q1.45,-0.65 2.35,0.2q0.95,0.75 1,2.45q-0.05,1.7 -1,3.4"/>
+   <path id="svg_114" stroke-width="0.05" stroke-opacity="0.223529" stroke-linejoin="round" stroke-linecap="round" stroke="#fc4747" fill="none" d="m5.45,-13.75q-0.9,1.6 -2.35,2.25l-2.4,-0.15q-0.95,-0.8 -0.95,-2.55q0,-1.65 0.95,-3.3q0.95,-1.7 2.4,-2.3q1.45,-0.65 2.35,0.2q0.95,0.75 1,2.45q-0.05,1.7 -1,3.4z"/>
+   <path id="svg_115" fill-rule="evenodd" fill-opacity="0.490196" fill="#feabab" d="m5.9,-8.85q0,-1.65 0.95,-3.3q0.95,-1.7 2.4,-2.3q1.45,-0.65 2.35,0.2q0.95,0.75 1,2.45q-0.05,1.7 -1,3.4q-0.9,1.6 -2.35,2.25q-1.45,0.65 -2.4,-0.15q-0.95,-0.8 -0.95,-2.55"/>
+   <path id="svg_116" stroke-width="0.05" stroke-opacity="0.223529" stroke-linejoin="round" stroke-linecap="round" stroke="#fc4747" fill="none" d="m5.9,-8.85q0,-1.65 0.95,-3.3q0.95,-1.7 2.4,-2.3q1.45,-0.65 2.35,0.2q0.95,0.75 1,2.45q-0.05,1.7 -1,3.4q-0.9,1.6 -2.35,2.25q-1.45,0.65 -2.4,-0.15q-0.95,-0.8 -0.95,-2.55z"/>
+   <path id="svg_117" fill-rule="evenodd" fill-opacity="0.490196" fill="#feabab" d="m7.55,-18.55q1.45,-0.65 2.35,0.2q0.95,0.75 1,2.45q-0.05,1.7 -1,3.4q-0.9,1.6 -2.35,2.25l-2.4,-0.15q-0.95,-0.8 -0.95,-2.55q0,-1.65 0.95,-3.3q0.95,-1.7 2.4,-2.3"/>
+   <path id="svg_118" stroke-width="0.05" stroke-opacity="0.223529" stroke-linejoin="round" stroke-linecap="round" stroke="#fc4747" fill="none" d="m7.55,-18.55q1.45,-0.65 2.35,0.2q0.95,0.75 1,2.45q-0.05,1.7 -1,3.4q-0.9,1.6 -2.35,2.25l-2.4,-0.15q-0.95,-0.8 -0.95,-2.55q0,-1.65 0.95,-3.3q0.95,-1.7 2.4,-2.3z"/>
+   <path id="svg_119" fill-rule="evenodd" fill-opacity="0.490196" fill="#feabab" d="m1.65,-7.05q-0.9,1.6 -2.35,2.25l-2.4,-0.15q-0.95,-0.8 -0.95,-2.55q0,-1.65 0.95,-3.3q0.95,-1.7 2.4,-2.3q1.45,-0.65 2.35,0.2q0.95,0.75 1,2.45q-0.05,1.7 -1,3.4"/>
+   <path id="svg_120" stroke-width="0.05" stroke-opacity="0.223529" stroke-linejoin="round" stroke-linecap="round" stroke="#fc4747" fill="none" d="m1.65,-7.05q-0.9,1.6 -2.35,2.25l-2.4,-0.15q-0.95,-0.8 -0.95,-2.55q0,-1.65 0.95,-3.3q0.95,-1.7 2.4,-2.3q1.45,-0.65 2.35,0.2q0.95,0.75 1,2.45q-0.05,1.7 -1,3.4z"/>
+   <path id="svg_121" fill-rule="evenodd" fill-opacity="0.490196" fill="#feabab" d="m-1.6,23.35q-0.65,-2.35 -0.05,-5.05q0.65,-2.8 2.45,-4.25q1.8,-1.5 3.4,-0.65q1.65,0.65 2.4,3.05q0.65,2.4 0,5.15q-0.6,2.6 -2.35,4.15q-1.8,1.5 -3.5,0.75q-1.6,-0.7 -2.35,-3.15"/>
+   <path id="svg_122" stroke-width="0.05" stroke-opacity="0.223529" stroke-linejoin="round" stroke-linecap="round" stroke="#fc4747" fill="none" d="m-1.6,23.35q-0.65,-2.35 -0.05,-5.05q0.65,-2.8 2.45,-4.25q1.8,-1.5 3.4,-0.65q1.65,0.65 2.4,3.05q0.65,2.4 0,5.15q-0.6,2.6 -2.35,4.15q-1.8,1.5 -3.5,0.75q-1.6,-0.7 -2.35,-3.15z"/>
+  </g>
+  <g transform="matrix(1,0,0,1,-207,-139.15) " id="shape16">
+   <path id="svg_123" fill-rule="evenodd" fill="url(#gradient5)" d="m225.25,142.25q3.15,3.15 3.15,7.6q0,4.45 -3.15,7.55q-3.1,3.15 -7.55,3.15q-4.45,0 -7.6,-3.15q-3.1,-3.1 -3.1,-7.55q0,-4.45 3.1,-7.6q3.15,-3.1 7.6,-3.1q4.45,0 7.55,3.1"/>
+   <path id="svg_124" stroke-width="0.05" stroke-linejoin="round" stroke-linecap="round" stroke="#6b0303" fill="none" d="m225.25,142.25q3.15,3.15 3.15,7.6q0,4.45 -3.15,7.55q-3.1,3.15 -7.55,3.15q-4.45,0 -7.6,-3.15q-3.1,-3.1 -3.1,-7.55q0,-4.45 3.1,-7.6q3.15,-3.1 7.6,-3.1q4.45,0 7.55,3.1z"/>
+   <path id="svg_125" fill-rule="evenodd" fill="url(#gradient6)" d="m224.35,149.25q0.55,-2 -6.2,-9.4q6.2,2.7 8.65,9.3l-2.45,0.1"/>
+  </g>
+  <g transform="matrix(1,0,0,1,7.8,6.2) " id="sprite14">
+   <use id="svg_126" xlink:href="#shape17" width="9.65" transform="matrix(1,0,0,1,-7.8,-6.2) " height="13.8"/>
+  </g>
+  <g transform="matrix(1,0,0,1,7.8,6.2) " id="shape17">
+   <path id="svg_127" fill-rule="evenodd" fill="#ff9411" d="m-3.95,3.1l-0.05,0l-0.05,0l0.1,0"/>
+   <path id="svg_128" fill-rule="evenodd" fill="#ac5602" d="m0.55,6.05l0.1,-0.05l0,0.05l-0.1,0m-4.55,-2.95l0,0.1l-0.05,-0.1l0.05,0"/>
+   <path id="svg_129" fill-rule="evenodd" fill="#d2efcb" d="m-3.4,-3.45l-0.15,0q-0.65,-1.2 -1.45,-1.15q-1.2,-0.3 -2.8,0l1.85,-0.55l1.6,-0.85l1.15,-0.15l0.7,0.45l0.45,0.1q0.45,0.45 0.4,1.8q-0.1,0.95 0.3,1.8l0.45,0.7l0.6,-1.4l0.05,0.2l0.8,1.75l0.3,0.9l-0.05,1.25l0,0.05l-0.25,0.7l-0.05,0.1l1.35,0.85l-0.4,0.7l0.1,1.1l-0.1,0.75l-0.75,1l-0.05,-0.6l0,-0.05l-0.1,0.05l-0.05,-0.2l-1.8,-0.25l-1.15,-0.3q-0.65,-0.35 -0.9,-1.05l-0.25,-1.3l0.65,-0.2l0.65,0.05l0.2,0l0.2,-0.35l-0.2,0.35l-0.2,0l-0.65,-0.05l-0.15,-0.25l-0.45,0.05l-0.1,-0.55l0.95,-0.05l0.8,0.5l0.6,-1l0,-0.05l0.25,-2.1l-0.05,-0.05l-0.6,-1q-0.9,-1.1 -1.3,-0.8l-0.4,-0.9"/>
+   <path id="svg_130" fill-rule="evenodd" fill="#eefff1" d="m-3,-2.55q0.4,-0.3 1.3,0.8l0.6,1l0.05,0.05l-0.25,2.1l-1.7,-3.95m-0.6,5.5l0.25,1.3q0.25,0.7 0.9,1.05l1.15,0.3l1.8,0.25l0.05,0.2l-1.15,0l-0.05,0.1l0.05,-0.1l1.15,0l0.1,0l0.05,0.6l0.05,0.55l-0.85,0.4l-0.7,-0.1l0.15,-1.35l-0.25,0l-1.5,-0.3l-1.05,-0.65l1.05,0.65l-0.6,1.05l-0.9,-0.15l-0.55,-0.5l1,-1.05l-0.1,-0.1l-0.05,-0.1l-0.4,-1.15l0,-0.65l0,0.65l-1.3,0.3l-0.3,-0.2l0.45,-0.95l1.1,0.1l0.05,0.1l0,-0.1l0.05,0l0.35,-0.15"/>
+   <path id="svg_131" stroke-width="0.05" stroke-opacity="0.372549" stroke-linejoin="round" stroke-linecap="round" stroke="#582c01" fill="none" d="m-3.4,-3.45l0.4,0.9l1.7,3.95l0,0.05l-0.6,1l-0.2,0.35l-0.2,0l-0.65,-0.05l-0.65,0.2l-0.35,0.15l-0.05,0l0,0.1l0,0.65l0.4,1.15l0.05,0.1l0.1,0.1l1.05,0.65l1.5,0.3l0.25,0m1.35,0.5l0.75,-1l0.1,-0.75l-0.1,-1.1l0.4,-0.7l-1.35,-0.85l0.05,-0.1l0.25,-0.7m0,-0.05l0.05,-1.25l-0.3,-0.9l-0.8,-1.75l-0.05,-0.2l-0.6,1.4l-0.45,-0.7q-0.4,-0.85 -0.3,-1.8q0.05,-1.35 -0.4,-1.8l-0.45,-0.1m-1.05,8.25l-0.1,-0.55l0.95,-0.05l0.8,0.5m-1.05,0.3l-0.15,-0.25l-0.45,0.05m-0.4,0.55l-0.1,0l-1.1,-0.1l-0.45,0.95l0.3,0.2l1.3,-0.3m0.55,1.35l-1,1.05l0.55,0.5l0.9,0.15l0.6,-1.05"/>
+   <path id="svg_132" stroke-width="0.05" stroke-opacity="0.372549" stroke-linejoin="round" stroke-linecap="round" stroke="#582c01" fill="none" d="m0.55,6.05l0.1,-0.05l0,0.05l0.05,0.6m-1.35,-0.5l0.05,-0.1l1.15,0m-1.2,0.1l-0.15,1.35l0.7,0.1l0.85,-0.4l-0.05,-0.55"/>
+  </g>
+  <g transform="matrix(1,0,0,1,-224.45,-144.75) " id="shape18">
+   <path id="svg_133" fill-rule="evenodd" fill="#b15901" d="m232.5,147.6q-4,1.15 -7.7,2.45l-0.35,-0.7l6.15,-3.1l0.65,-1.3l0,1.85l1.25,0.8"/>
+   <path id="svg_134" fill-rule="evenodd" fill="#e4c170" d="m231.25,144.95l1.85,-0.2l0.85,2.05l-1.45,0.8l-1.25,-0.8l0,-1.85"/>
+   <path id="svg_135" stroke-width="0.05" stroke-linejoin="round" stroke-linecap="round" stroke="#6b0303" fill="none" d="m231.25,144.95l1.85,-0.2l0.85,2.05l-1.45,0.8q-4,1.15 -7.7,2.45l-0.35,-0.7l6.15,-3.1l0.65,-1.3z"/>
+  </g>
+  <g transform="matrix(1,0,0,1,7.8,6.3) " id="sprite15">
+   <use id="svg_136" xlink:href="#shape19" width="15.25" transform="matrix(1,0,0,1,-7.8,-6.3) " height="13.05"/>
+  </g>
+  <g transform="matrix(1,0,0,1,7.8,6.3) " id="shape19">
+   <path id="svg_137" fill-rule="evenodd" fill="#cccc00" d="m-7.45,6.45q-1,-3.5 0.85,-8.8l0,0.05q5.35,-3.2 13.7,-4q-12,3.95 -14.55,12.75"/>
+   <path id="svg_138" fill-rule="evenodd" fill="#b1b101" d="m7.1,-6.3l0.35,0.1q-2.55,7.35 -6.55,11.9q-3.8,1.65 -8.35,0.75q2.55,-8.8 14.55,-12.75"/>
+   <path id="svg_139" stroke-width="0.05" stroke-linejoin="round" stroke-linecap="round" stroke="#989701" fill="none" d="m7.1,-6.3l0.35,0.1q-2.55,7.35 -6.55,11.9q-3.8,1.65 -8.35,0.75q-1,-3.5 0.85,-8.8l0,0.05q5.35,-3.2 13.7,-4z"/>
+  </g>
+  <g transform="matrix(1,0,0,1,-224.25,-151.85) " id="shape20">
+   <path id="svg_140" fill-rule="evenodd" fill="#ffffff" d="m224.25,153.05q0,-0.5 0.25,-0.85l0.6,-0.35q0.4,0 0.65,0.35l0.25,0.85l-0.25,0.85q-0.25,0.35 -0.65,0.35l-0.6,-0.35l-0.25,-0.85"/>
+   <path id="svg_141" fill-rule="evenodd" fill="#ffffff" d="m235.35,161.25q0,-0.5 0.25,-0.85q0.25,-0.35 0.6,-0.35q0.4,0 0.65,0.35l0.25,0.85l-0.25,0.85q-0.25,0.35 -0.65,0.35q-0.35,0 -0.6,-0.35q-0.25,-0.35 -0.25,-0.85"/>
+  </g>
+  <g transform="matrix(1,0,0,1,48.5,48.5) " id="sprite16">
+   <use id="svg_142" xlink:href="#shape21" width="97" transform="matrix(1,0,0,1,-48.5,-48.5) " height="97"/>
+  </g>
+  <g transform="matrix(1,0,0,1,48.5,48.5) " id="shape21">
+   <path id="svg_143" fill-rule="evenodd" fill="url(#gradient7)" d="m34.3,-34.3q14.2,14.2 14.2,34.3q0,20.1 -14.2,34.3q-14.2,14.2 -34.3,14.2q-20.1,0 -34.3,-14.2q-14.2,-14.2 -14.2,-34.3q0,-20.1 14.2,-34.3q14.2,-14.2 34.3,-14.2q20.1,0 34.3,14.2"/>
+  </g>
+  <g transform="matrix(1,0,0,1,19.8,15.9) " id="shape22">
+   <path id="svg_144" stroke-opacity="0" stroke-linejoin="round" stroke-linecap="round" stroke="#ff00ff" fill="none" d="m200.7,-15.4l0,220l-219.95,0l-0.05,0l0,-220l220,0"/>
+   <path id="svg_145" stroke-opacity="0" stroke-linejoin="round" stroke-linecap="round" stroke="#ff00ff" fill="none" d="m200.7,-15.4l-110,110l110,110m-220,-220l110,110l-109.95,110"/>
+   <path id="svg_146" stroke-opacity="0" stroke-linejoin="round" stroke-linecap="round" stroke="#ff00ff" fill="none" d="m145.7,132.25l-109.95,0"/>
+   <path id="svg_147" stroke-opacity="0" stroke-linejoin="round" stroke-linecap="round" stroke="#ff00ff" fill="none" d="m149,23l0,136.2l-118.15,0l0,-136.2l118.15,0z"/>
+  </g>
+  <g id="sprite17">
+   <use id="svg_148" xlink:href="#shape23" width="100" height="40"/>
+  </g>
+  <g id="shape23">
+   <path id="svg_149" fill-rule="evenodd" fill-opacity="0" fill="#ff00ff" d="m100,40l-100,0l0,-40l100,0l0,40"/>
+  </g>
+  <radialGradient spreadMethod="pad" r="819.2" id="gradient0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.0306, 0.0, 0.0, 0.0306, 0.0, 0.0)" cy="0" cx="0">
+   <stop stop-opacity="0.447059" stop-color="#887d00" offset="0"/>
+   <stop stop-opacity="0" stop-color="#867c00" offset="1"/>
+  </radialGradient>
+  <linearGradient y2="-0.288644" y1="-0.076192" x2="-1.289889" x1="-2.694232" spreadMethod="pad" id="gradient1">
+   <stop stop-color="#ff9411" offset="0"/>
+   <stop stop-color="#fec987" offset="1"/>
+  </linearGradient>
+  <linearGradient y2="0.259776" y1="0.690278" x2="1.165433" x1="-0.06437" spreadMethod="pad" id="gradient2">
+   <stop stop-color="#99b88b" offset="0.196078"/>
+   <stop stop-color="#d2efcb" offset="0.564706"/>
+   <stop stop-color="#ffffff" offset="0.972549"/>
+  </linearGradient>
+  <linearGradient y2="-0.108713" y1="0.86547" x2="0.593075" x1="0.383471" spreadMethod="pad" id="gradient3">
+   <stop stop-color="#eefff1" offset="0"/>
+   <stop stop-color="#d2efcb" offset="1"/>
+  </linearGradient>
+  <linearGradient y2="1.225589" y1="0.354831" x2="-0.328319" x1="0.651343" spreadMethod="pad" id="gradient4">
+   <stop stop-color="#ddffe3" offset="0"/>
+   <stop stop-color="#ffffff" offset="0.784314"/>
+  </linearGradient>
+  <radialGradient spreadMethod="pad" r="819.2" id="gradient5" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.0204, 0.0, 0.0, 0.0204, 221.7, 145.35)" cy="0" cx="0">
+   <stop stop-color="#ff6666" offset="0"/>
+   <stop stop-color="#cc0000" offset="1"/>
+  </radialGradient>
+  <linearGradient y2="0.88526" y1="0.327506" x2="0.821068" x1="0.404365" spreadMethod="pad" id="gradient6">
+   <stop stop-opacity="0" stop-color="#980101" offset="0"/>
+   <stop stop-color="#980101" offset="1"/>
+  </linearGradient>
+  <radialGradient spreadMethod="pad" r="819.2" id="gradient7" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.0596, 0.0, 0.0, 0.0596, 0.0, 0.0)" cy="0" cx="0">
+   <stop stop-opacity="0.329412" stop-color="#eec86f" offset="0"/>
+   <stop stop-opacity="0" stop-color="#fc9125" offset="1"/>
+  </radialGradient>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="140" width="112" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_150">
+   <use x="33.22419" y="-1.748642" id="svg_151" xlink:href="#sprite0" width="211.8" transform="matrix(-0.4866999999999999,0,0,0.4866999999999999,119.9714913757324,2.4572838958740277) " height="277.55"/>
+   <use x="-54.317022" y="-20.34468" id="svg_152" xlink:href="#shape22" width="221" transform="matrix(1,0,0,1,-19.8,-15.9) " height="221"/>
+   <use x="-61.333584" y="-22.972764" xlink:href="#sprite17" width="100" transform="matrix(0.8856,0,0,0.8856,37.95,29.9) " id="_mcMask" height="40"/>
+  </g>
+ </g>
+</svg>

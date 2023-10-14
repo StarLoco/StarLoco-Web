@@ -73,7 +73,19 @@
 	color: #FFF; 
 	font-size: 11px;
 }
+/* Style de la barre de progression */
+.progress-bar {
+	width: 100%;
+	height: 10px; /* Hauteur de la barre de progression */
+	background-color: #ccc; /* Couleur de fond de la barre de progression */
+}
 
+/* Style de la partie remplie de la barre de progression */
+.progress {
+	width: 0%; /* La largeur sera ajustée dynamiquement en JavaScript */
+	height: 100%;
+	background-color: green; /* Couleur de la partie remplie de la barre de progression */
+}
 /** THEME
 ===================================*/
 #bx-tabs {
