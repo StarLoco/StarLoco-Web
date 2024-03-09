@@ -36,7 +36,7 @@ date_default_timezone_set('Europe/Paris');
 	define('LOGIN_DB_NAME', 'starloco_login');
 	define('LOGIN_DB_USER', 'root');
 	define('LOGIN_DB_PASS', '');
-	$login = newPdo("127.0.0.1", LOGIN_DB_USER, LOGIN_DB_PASS, LOGIN_DB_NAME);
+	$login = newPdo(LOGIN_IP, LOGIN_DB_USER, LOGIN_DB_PASS, LOGIN_DB_NAME);
 	
 	/** Serveur jiva **/
 	define('JIVA_IP', '127.0.0.1');
@@ -44,7 +44,7 @@ date_default_timezone_set('Europe/Paris');
 	define('JIVA_DB_NAME', 'starloco_game');
 	define('JIVA_DB_USER', 'root');
 	define('JIVA_DB_PASS', '');
-	$jiva = newPdo("127.0.0.1", JIVA_DB_USER, JIVA_DB_PASS, JIVA_DB_NAME);
+	$jiva = newPdo(JIVA_IP, JIVA_DB_USER, JIVA_DB_PASS, JIVA_DB_NAME);
 	
 /** Shop **/
 	define('PTS_PER_VOTE', '5');
@@ -78,10 +78,16 @@ define('PAGE_WITHOUT_RIGHT_MENU', 'signin register password');
 /*************************************/
 
 function checkState($ip, $port) {
-	$ping = exec("ping -n 1 " . $ip . ":" . $port);
-	if(ereg("perte 100%", $ping)) 
-		return false;
-	return true;
+	try{
+		// @ est appelé opérateur de suppression d'erreurs.
+		// Nous n'affichons pas le warning si la connexion n'a pas pu s'établir
+		$fp = @fsockopen($ip, $port, $errorCode, $errorMessage);
+		if($fp !== false){
+			fclose($fp);
+			return true;
+		}
+	}catch(Exception $e){}
+	return false;
 }
 
 function convertDateToString($date) {
