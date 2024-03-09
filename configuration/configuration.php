@@ -78,15 +78,11 @@ define('PAGE_WITHOUT_RIGHT_MENU', 'signin register password');
 /*************************************/
 
 function checkState($ip, $port) {
-	try{
-		// @ est appelé opérateur de suppression d'erreurs.
-		// Nous n'affichons pas le warning si la connexion n'a pas pu s'établir
-		$fp = @fsockopen($ip, $port, $errorCode, $errorMessage);
-		if($fp !== false){
-			fclose($fp);
-			return true;
-		}
-	}catch(Exception $e){}
+	$fp = fsockopen($ip, $port, $errorCode, $errorMessage);
+	if($fp !== false){
+		fclose($fp);
+		return true;
+	}
 	return false;
 }
 
